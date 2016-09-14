@@ -1,0 +1,217 @@
+version 2
+run VoIP-20ms_200b-0-20160909-09:29:24-5767
+attr configname VoIP-20ms_200b
+attr datetime 20160909-09:29:24
+attr experiment VoIP-20ms_200b
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network SymScenerio
+attr processid 5767
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.coreDebug false
+param **.debug false
+param *.**.nic.mac1609_4.bitrate 18Mbps
+param *.**.nic.mac1609_4.txPower 20mW
+param *.**.nic.mac1609_4.useServiceChannel true
+param *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.sensitivity -89dBm
+param *.**.nic.phy80211p.thermalNoise -110dBm
+param *.**.nic.phy80211p.usePropagationDelay true
+param *.**.nic.phy80211p.useThermalNoise true
+param *.annotations.draw false
+param *.connectionManager.alpha 2.0
+param *.connectionManager.carrierFrequency "5.890e9 Hz"
+param *.connectionManager.pMax 20mW
+param *.connectionManager.sat -89dBm
+param *.connectionManager.sendDirect true
+param *.manager.autoShutdown true
+param *.manager.host "\"localhost\""
+param *.manager.launchConfig "xmldoc(\"map.launchd.xml\")"
+param *.manager.margin 25
+param *.manager.moduleDisplayString "\"\""
+param *.manager.moduleName "\"node\""
+param *.manager.moduleType "\"symulacja.veins.nodes.Car\""
+param *.manager.port 9999
+param *.manager.updateInterval 0.1s
+param *.node[*].appl.beaconInterval 1s
+param *.node[*].appl.beaconPriority 3
+param *.node[*].appl.dataOnSch false
+param *.node[*].appl.dataPriority 2
+param *.node[*].appl.debug false
+param *.node[*].appl.maxOffset 0.005s
+param *.node[*].appl.sendBeacons false
+param *.node[*].appl.sendData true
+param *.node[*].appl.sendVoIP true
+param *.node[*].appl.voipInterval 0.020s
+param *.node[*].appl.voipLengthBits "200 bits"
+param *.node[*].appl.voipOnSch true
+param *.node[*].appl.voipPriority 3
+param *.node[*].applType "\"Sym11p\""
+param *.node[*].veinsmobility.x 0
+param *.node[*].veinsmobility.y 0
+param *.node[*].veinsmobility.z 1.895
+param *.node[*].veinsmobilityType "\"symulacja.veins.modules.mobility.traci.TraCIMobility\""
+param *.playgroundSizeX 9000m
+param *.playgroundSizeY 9000m
+param *.playgroundSizeZ 50m
+param *.rsu[*].appl.beaconInterval 1s
+param *.rsu[*].appl.beaconPriority 3
+param *.rsu[*].appl.dataOnSch false
+param *.rsu[*].appl.dataPriority 2
+param *.rsu[*].appl.debug false
+param *.rsu[*].appl.headerLength "256 bit"
+param *.rsu[*].appl.maxOffset 0.005s
+param *.rsu[*].appl.sendBeacons false
+param *.rsu[*].appl.sendData false
+param *.rsu[*].appl.sendVoIP false
+param *.rsu[*].applType "\"SymRSU11p\""
+param *.rsu[0].mobility.x 2160
+param *.rsu[0].mobility.y 3100
+param *.rsu[0].mobility.z 3
+param *.world.use2D false
+param *.world.useTorus false
+
+scalar SymScenerio.node[0].appl 	"TX Packets" 	3059
+scalar SymScenerio.node[0].appl 	"RX Packets" 	2111
+scalar SymScenerio.node[0].appl 	PER 	30.990520477295
+scalar SymScenerio.node[0].appl 	"Średnie opóźnienie" 	0.01020306348
+scalar SymScenerio.node[0].nic.phy80211p 	busyTime 	0.0086318181818177
+scalar SymScenerio.node[0].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.node[0].nic.mac1609_4 	ReceivedBroadcasts 	8030
+scalar SymScenerio.node[0].nic.mac1609_4 	SentPackets 	3059
+scalar SymScenerio.node[0].nic.mac1609_4 	SNIRLostPackets 	1465
+scalar SymScenerio.node[0].nic.mac1609_4 	RXTXLostPackets 	1257
+scalar SymScenerio.node[0].nic.mac1609_4 	TotalLostPackets 	2722
+scalar SymScenerio.node[0].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.node[0].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.node[0].nic.mac1609_4 	TimesIntoBackoff 	3768
+scalar SymScenerio.node[0].nic.mac1609_4 	SlotsBackoff 	4636
+scalar SymScenerio.node[0].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.node[0].nic.mac1609_4 	totalBusyTime 	0.662908049756
+scalar SymScenerio.node[0].veinsmobility 	startTime 	0.1
+scalar SymScenerio.node[0].veinsmobility 	totalTime 	61.5
+scalar SymScenerio.node[0].veinsmobility 	stopTime 	61.7
+scalar SymScenerio.node[0].veinsmobility 	minSpeed 	0.25286542447004
+scalar SymScenerio.node[0].veinsmobility 	maxSpeed 	13.88991365198
+scalar SymScenerio.node[0].veinsmobility 	totalDistance 	802.17205702619
+scalar SymScenerio.node[0].veinsmobility 	totalCO2Emission 	161.09633512057
+scalar SymScenerio.node[1].appl 	"TX Packets" 	3064
+scalar SymScenerio.node[1].appl 	"RX Packets" 	2315
+scalar SymScenerio.node[1].appl 	PER 	24.445169448853
+scalar SymScenerio.node[1].appl 	"Średnie opóźnienie" 	0.009419156148
+scalar SymScenerio.node[1].nic.phy80211p 	busyTime 	0.0092568455284542
+scalar SymScenerio.node[1].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.node[1].nic.mac1609_4 	ReceivedBroadcasts 	8169
+scalar SymScenerio.node[1].nic.mac1609_4 	SentPackets 	3064
+scalar SymScenerio.node[1].nic.mac1609_4 	SNIRLostPackets 	1997
+scalar SymScenerio.node[1].nic.mac1609_4 	RXTXLostPackets 	1032
+scalar SymScenerio.node[1].nic.mac1609_4 	TotalLostPackets 	3029
+scalar SymScenerio.node[1].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.node[1].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.node[1].nic.mac1609_4 	TimesIntoBackoff 	3677
+scalar SymScenerio.node[1].nic.mac1609_4 	SlotsBackoff 	4586
+scalar SymScenerio.node[1].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.node[1].nic.mac1609_4 	totalBusyTime 	0.6850382919
+scalar SymScenerio.node[1].veinsmobility 	startTime 	3.1
+scalar SymScenerio.node[1].veinsmobility 	totalTime 	61.4
+scalar SymScenerio.node[1].veinsmobility 	stopTime 	64.6
+scalar SymScenerio.node[1].veinsmobility 	minSpeed 	0.25157376560476
+scalar SymScenerio.node[1].veinsmobility 	maxSpeed 	13.889992804453
+scalar SymScenerio.node[1].veinsmobility 	totalDistance 	802.48809201778
+scalar SymScenerio.node[1].veinsmobility 	totalCO2Emission 	161.10532312221
+scalar SymScenerio.node[2].appl 	"TX Packets" 	3068
+scalar SymScenerio.node[2].appl 	"RX Packets" 	2715
+scalar SymScenerio.node[2].appl 	PER 	11.505867004395
+scalar SymScenerio.node[2].appl 	"Średnie opóźnienie" 	0.014383517364
+scalar SymScenerio.node[2].nic.phy80211p 	busyTime 	0.0098878699186975
+scalar SymScenerio.node[2].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.node[2].nic.mac1609_4 	ReceivedBroadcasts 	7880
+scalar SymScenerio.node[2].nic.mac1609_4 	SentPackets 	3068
+scalar SymScenerio.node[2].nic.mac1609_4 	SNIRLostPackets 	2979
+scalar SymScenerio.node[2].nic.mac1609_4 	RXTXLostPackets 	496
+scalar SymScenerio.node[2].nic.mac1609_4 	TotalLostPackets 	3475
+scalar SymScenerio.node[2].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.node[2].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.node[2].nic.mac1609_4 	TimesIntoBackoff 	3681
+scalar SymScenerio.node[2].nic.mac1609_4 	SlotsBackoff 	4694
+scalar SymScenerio.node[2].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.node[2].nic.mac1609_4 	totalBusyTime 	0.692654871645
+scalar SymScenerio.node[2].veinsmobility 	startTime 	6.1
+scalar SymScenerio.node[2].veinsmobility 	totalTime 	61.4
+scalar SymScenerio.node[2].veinsmobility 	stopTime 	67.6
+scalar SymScenerio.node[2].veinsmobility 	minSpeed 	0.25726502669835
+scalar SymScenerio.node[2].veinsmobility 	maxSpeed 	13.889992125905
+scalar SymScenerio.node[2].veinsmobility 	totalDistance 	802.43055074934
+scalar SymScenerio.node[2].veinsmobility 	totalCO2Emission 	160.03172476537
+scalar SymScenerio.node[3].appl 	"TX Packets" 	3037
+scalar SymScenerio.node[3].appl 	"RX Packets" 	2119
+scalar SymScenerio.node[3].appl 	PER 	30.227197647095
+scalar SymScenerio.node[3].appl 	"Średnie opóźnienie" 	0.012418599357
+scalar SymScenerio.node[3].nic.phy80211p 	busyTime 	0.009169999999999
+scalar SymScenerio.node[3].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.node[3].nic.mac1609_4 	ReceivedBroadcasts 	8380
+scalar SymScenerio.node[3].nic.mac1609_4 	SentPackets 	3037
+scalar SymScenerio.node[3].nic.mac1609_4 	SNIRLostPackets 	1707
+scalar SymScenerio.node[3].nic.mac1609_4 	RXTXLostPackets 	1166
+scalar SymScenerio.node[3].nic.mac1609_4 	TotalLostPackets 	2873
+scalar SymScenerio.node[3].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.node[3].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.node[3].nic.mac1609_4 	TimesIntoBackoff 	3805
+scalar SymScenerio.node[3].nic.mac1609_4 	SlotsBackoff 	4594
+scalar SymScenerio.node[3].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.node[3].nic.mac1609_4 	totalBusyTime 	0.686018153468
+scalar SymScenerio.node[3].veinsmobility 	startTime 	9.1
+scalar SymScenerio.node[3].veinsmobility 	totalTime 	61.5
+scalar SymScenerio.node[3].veinsmobility 	stopTime 	70.7
+scalar SymScenerio.node[3].veinsmobility 	minSpeed 	0.24904955297103
+scalar SymScenerio.node[3].veinsmobility 	maxSpeed 	13.889910098459
+scalar SymScenerio.node[3].veinsmobility 	totalDistance 	803.4889356132
+scalar SymScenerio.node[3].veinsmobility 	totalCO2Emission 	161.0586094528
+scalar SymScenerio.node[4].appl 	"TX Packets" 	3068
+scalar SymScenerio.node[4].appl 	"RX Packets" 	2148
+scalar SymScenerio.node[4].appl 	PER 	29.986961364746
+scalar SymScenerio.node[4].appl 	"Średnie opóźnienie" 	0.012728741481
+scalar SymScenerio.node[4].nic.phy80211p 	busyTime 	0.0087496585365848
+scalar SymScenerio.node[4].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.node[4].nic.mac1609_4 	ReceivedBroadcasts 	8036
+scalar SymScenerio.node[4].nic.mac1609_4 	SentPackets 	3068
+scalar SymScenerio.node[4].nic.mac1609_4 	SNIRLostPackets 	1573
+scalar SymScenerio.node[4].nic.mac1609_4 	RXTXLostPackets 	1201
+scalar SymScenerio.node[4].nic.mac1609_4 	TotalLostPackets 	2774
+scalar SymScenerio.node[4].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.node[4].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.node[4].nic.mac1609_4 	TimesIntoBackoff 	3817
+scalar SymScenerio.node[4].nic.mac1609_4 	SlotsBackoff 	4593
+scalar SymScenerio.node[4].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.node[4].nic.mac1609_4 	totalBusyTime 	0.665773660257
+scalar SymScenerio.node[4].veinsmobility 	startTime 	12.1
+scalar SymScenerio.node[4].veinsmobility 	totalTime 	61.4
+scalar SymScenerio.node[4].veinsmobility 	stopTime 	73.6
+scalar SymScenerio.node[4].veinsmobility 	minSpeed 	0.25788759189239
+scalar SymScenerio.node[4].veinsmobility 	maxSpeed 	13.889854896194
+scalar SymScenerio.node[4].veinsmobility 	totalDistance 	802.57465982569
+scalar SymScenerio.node[4].veinsmobility 	totalCO2Emission 	160.43092065609
+scalar SymScenerio.rsu[0].appl 	"Total TX Pacets" 	15296
+scalar SymScenerio.rsu[0].appl 	"Total RX Pacets" 	11408
+scalar SymScenerio.rsu[0].appl 	"PER Total" 	25.418409347534
+scalar SymScenerio.rsu[0].appl 	"Całkowite średnie opóźnienie" 	0.011830615566
+scalar SymScenerio.rsu[0].nic.phy80211p 	busyTime 	0.011270736842101
+scalar SymScenerio.rsu[0].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	ReceivedBroadcasts 	11408
+scalar SymScenerio.rsu[0].nic.mac1609_4 	SentPackets 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	SNIRLostPackets 	3888
+scalar SymScenerio.rsu[0].nic.mac1609_4 	RXTXLostPackets 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	TotalLostPackets 	3888
+scalar SymScenerio.rsu[0].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	TimesIntoBackoff 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	SlotsBackoff 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	totalBusyTime 	0.736792

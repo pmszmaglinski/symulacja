@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Jul  6 12:59:20 2016 by SUMO duarouter Version 0.25.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="map.net.xml"/>
+        <trip-files value="map.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="map2.rou.xml"/>
+    </output>
+
+    <processing>
+        <remove-loops value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd"> 
+    <vType id="vtype0" accel="2.6" decel="4.5" sigma="0.5" length="2.5" minGap="2.5" maxSpeed="20" color="1,1,0" />
+    <route id="route0" edges="236832924#3 236832924#4 282596997#0 282596997#1 282596997#2 169400547#0 169400547#1 236832919#0 236832919#1 236832919#2 236832919#3 236832919#4 236832919#5 200568455#0"/>
+ 	<flow id="flow0" type="vtype0" route="route0" begin="0" period="3" number="5" />
+</routes>

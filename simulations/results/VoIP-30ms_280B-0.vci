@@ -1,0 +1,105 @@
+file 4909 1473419371                                            
+version 2
+run VoIP-30ms_280B-0-20160909-13:08:57-13433
+attr configname VoIP-30ms_280B
+attr datetime 20160909-13:08:57
+attr experiment VoIP-30ms_280B
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network SymScenerio
+attr processid 13433
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.coreDebug false
+param **.debug false
+param *.**.nic.mac1609_4.bitrate 18Mbps
+param *.**.nic.mac1609_4.txPower 20mW
+param *.**.nic.mac1609_4.useServiceChannel true
+param *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.sensitivity -89dBm
+param *.**.nic.phy80211p.thermalNoise -110dBm
+param *.**.nic.phy80211p.usePropagationDelay true
+param *.**.nic.phy80211p.useThermalNoise true
+param *.annotations.draw false
+param *.connectionManager.alpha 2.0
+param *.connectionManager.carrierFrequency "5.890e9 Hz"
+param *.connectionManager.pMax 20mW
+param *.connectionManager.sat -89dBm
+param *.connectionManager.sendDirect true
+param *.manager.autoShutdown true
+param *.manager.host "\"localhost\""
+param *.manager.launchConfig "xmldoc(\"map.launchd.xml\")"
+param *.manager.margin 25
+param *.manager.moduleDisplayString "\"\""
+param *.manager.moduleName "\"node\""
+param *.manager.moduleType "\"symulacja.veins.nodes.Car\""
+param *.manager.port 9999
+param *.manager.updateInterval 0.1s
+param *.node[*].appl.beaconInterval 1s
+param *.node[*].appl.beaconPriority 3
+param *.node[*].appl.dataOnSch false
+param *.node[*].appl.dataPriority 2
+param *.node[*].appl.debug false
+param *.node[*].appl.maxOffset 0.005s
+param *.node[*].appl.sendBeacons false
+param *.node[*].appl.sendData true
+param *.node[*].appl.sendVoIP true
+param *.node[*].appl.voipInterval 0.030s
+param *.node[*].appl.voipLengthBits 2240bits
+param *.node[*].appl.voipOnSch true
+param *.node[*].appl.voipPriority 3
+param *.node[*].applType "\"Sym11p\""
+param *.node[*].veinsmobility.x 0
+param *.node[*].veinsmobility.y 0
+param *.node[*].veinsmobility.z 1.895
+param *.node[*].veinsmobilityType "\"symulacja.veins.modules.mobility.traci.TraCIMobility\""
+param *.playgroundSizeX 9000m
+param *.playgroundSizeY 9000m
+param *.playgroundSizeZ 50m
+param *.rsu[*].appl.beaconInterval 1s
+param *.rsu[*].appl.beaconPriority 3
+param *.rsu[*].appl.dataOnSch false
+param *.rsu[*].appl.dataPriority 2
+param *.rsu[*].appl.debug false
+param *.rsu[*].appl.headerLength "256 bit"
+param *.rsu[*].appl.maxOffset 0.005s
+param *.rsu[*].appl.sendBeacons false
+param *.rsu[*].appl.sendData false
+param *.rsu[*].appl.sendVoIP false
+param *.rsu[*].applType "\"SymRSU11p\""
+param *.rsu[0].mobility.x 2160
+param *.rsu[0].mobility.y 3100
+param *.rsu[0].mobility.z 3
+param *.world.use2D false
+param *.world.useTorus false
+
+vector 9  SymScenerio.rsu[0].nic.mac1609_4  "Interwały kanałów"  ETV
+vector 18  SymScenerio.node[0].veinsmobility  posx  ETV
+vector 19  SymScenerio.node[0].veinsmobility  posy  ETV
+vector 17  SymScenerio.node[0].nic.mac1609_4  "Interwały kanałów"  ETV
+vector 20  SymScenerio.node[0].veinsmobility  speed  ETV
+vector 21  SymScenerio.node[0].veinsmobility  acceleration  ETV
+vector 22  SymScenerio.node[0].veinsmobility  co2emission  ETV
+vector 10  SymScenerio.node[0].appl  "TX Packets"  ETV
+vector 11  SymScenerio.node[0].appl  "TX Total"  ETV
+vector 12  SymScenerio.node[0].appl  Pakietyzacja  ETV
+vector 3  SymScenerio.rsu[0].appl  "RX Packets"  ETV
+vector 4  SymScenerio.rsu[0].appl  "RX Packet"  ETV
+3	3541 44 41 56 0.554343763847 0.575123763847 2 1 2 3 5
+4	3585 52 41 56 0.554343763847 0.575123763847 2 1.003 1.003 2.006 2.012018
+9	3637 258 2 28 0.050253279723 0.550253279723 11 1 1.001 11.005 11.010005
+10	3895 46 25 42 0.541827398394 0.571827398394 2 1 2 3 5
+11	3941 46 25 42 0.541827398394 0.571827398394 2 1 2 3 5
+12	3987 54 25 42 0.541827398394 0.571827398394 2 1.002 1.002 2.004 2.008008
+17	4041 221 5 27 0.150115314512 0.550115314512 9 1 1.001 9.004 9.008004
+18	4262 154 3 57 0.1 0.6 6 2490.0027357533 2490.2093352812 14940.838166863 37204774.222045
+19	4416 152 3 57 0.1 0.6 6 3382.6427083145 3382.770679328 20296.365256279 68657073.782417
+20	4568 133 7 57 0.2 0.6 5 0.25286542447004 1.1723245016953 3.6021763379402 3.1198200233877
+21	4701 104 12 57 0.3 0.6 4 2.1818481258762 2.4479752470855 9.1945907722523 21.17595281529
+22	4805 104 12 57 0.3 0.6 4 1.4276208928798 1.7983555805977 6.4360527244788 10.429416709464

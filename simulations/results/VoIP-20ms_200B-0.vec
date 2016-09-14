@@ -1,0 +1,170 @@
+version 2
+run VoIP-20ms_200B-0-20160914-12:53:06-3133
+attr configname VoIP-20ms_200B
+attr datetime 20160914-12:53:06
+attr experiment VoIP-20ms_200B
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network SymScenerio
+attr processid 3133
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.coreDebug false
+param **.debug false
+param *.**.nic.mac1609_4.bitrate 18Mbps
+param *.**.nic.mac1609_4.txPower 20mW
+param *.**.nic.mac1609_4.useServiceChannel true
+param *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.sensitivity -89dBm
+param *.**.nic.phy80211p.thermalNoise -110dBm
+param *.**.nic.phy80211p.usePropagationDelay true
+param *.**.nic.phy80211p.useThermalNoise true
+param *.annotations.draw false
+param *.connectionManager.alpha 2.0
+param *.connectionManager.carrierFrequency "5.890e9 Hz"
+param *.connectionManager.pMax 20mW
+param *.connectionManager.sat -89dBm
+param *.connectionManager.sendDirect true
+param *.manager.autoShutdown true
+param *.manager.host "\"localhost\""
+param *.manager.launchConfig "xmldoc(\"map.launchd.xml\")"
+param *.manager.margin 25
+param *.manager.moduleDisplayString "\"\""
+param *.manager.moduleName "\"node\""
+param *.manager.moduleType "\"symulacja.veins.nodes.Car\""
+param *.manager.port 9999
+param *.manager.updateInterval 0.1s
+param *.node[*].appl.beaconInterval 1s
+param *.node[*].appl.beaconPriority 3
+param *.node[*].appl.dataOnSch false
+param *.node[*].appl.dataPriority 2
+param *.node[*].appl.debug false
+param *.node[*].appl.maxOffset 0.005s
+param *.node[*].appl.sendBeacons false
+param *.node[*].appl.sendData true
+param *.node[*].appl.sendVoIP true
+param *.node[*].appl.voipInterval 0.020s
+param *.node[*].appl.voipLengthBits 1600bit
+param *.node[*].appl.voipOnSch true
+param *.node[*].appl.voipPriority 3
+param *.node[*].applType "\"Sym11p\""
+param *.node[*].veinsmobility.x 0
+param *.node[*].veinsmobility.y 0
+param *.node[*].veinsmobility.z 1.895
+param *.node[*].veinsmobilityType "\"symulacja.veins.modules.mobility.traci.TraCIMobility\""
+param *.playgroundSizeX 9000m
+param *.playgroundSizeY 9000m
+param *.playgroundSizeZ 50m
+param *.rsu[*].appl.beaconInterval 1s
+param *.rsu[*].appl.beaconPriority 3
+param *.rsu[*].appl.dataOnSch false
+param *.rsu[*].appl.dataPriority 2
+param *.rsu[*].appl.debug false
+param *.rsu[*].appl.headerLength "256 bit"
+param *.rsu[*].appl.maxOffset 0.005s
+param *.rsu[*].appl.sendBeacons false
+param *.rsu[*].appl.sendData false
+param *.rsu[*].appl.sendVoIP false
+param *.rsu[*].applType "\"SymRSU11p\""
+param *.rsu[0].mobility.x 2160
+param *.rsu[0].mobility.y 3100
+param *.rsu[0].mobility.z 3
+param *.world.use2D false
+param *.world.useTorus false
+
+vector 84  SymScenerio.rsu[0].nic.mac1609_4  "Interwały kanałów"  ETV
+vector 93  SymScenerio.node[0].veinsmobility  posx  ETV
+vector 94  SymScenerio.node[0].veinsmobility  posy  ETV
+vector 92  SymScenerio.node[0].nic.mac1609_4  "Interwały kanałów"  ETV
+vector 95  SymScenerio.node[0].veinsmobility  speed  ETV
+vector 96  SymScenerio.node[0].veinsmobility  acceleration  ETV
+vector 97  SymScenerio.node[0].veinsmobility  co2emission  ETV
+vector 85  SymScenerio.node[0].appl  "TX Packets"  ETV
+vector 86  SymScenerio.node[0].appl  "TX Total"  ETV
+vector 87  SymScenerio.node[0].appl  Pakietyzacja  ETV
+vector 78  SymScenerio.rsu[0].appl  "RX Packets"  ETV
+vector 79  SymScenerio.rsu[0].appl  "RX Packet"  ETV
+78	42	0.554311763847	1
+78	56	0.555091763847	2
+78	71	0.575085763847	3
+78	86	0.595092763847	4
+79	42	0.554311763847	1.003
+79	56	0.555091763847	1.003
+79	71	0.575085763847	1.003
+79	86	0.595092763847	1.003
+84	2	0.050253279723	1
+84	4	0.100253279723	1.001
+84	6	0.150253279723	1
+84	9	0.200253279723	1.001
+84	11	0.250253279723	1
+84	14	0.300253279723	1.001
+84	16	0.350253279723	1
+84	19	0.400253279723	1.001
+84	21	0.450253279723	1
+84	24	0.500253279723	1.001
+84	28	0.550253279723	1
+84	89	0.600253279723	1.001
+84	95	0.650253279723	1
+85	25	0.531827398394	1
+85	29	0.551827398394	2
+85	57	0.571827398394	3
+85	72	0.591827398394	4
+85	90	0.611827398394	5
+85	92	0.631827398394	6
+85	96	0.651827398394	7
+86	25	0.531827398394	1
+86	29	0.551827398394	2
+86	57	0.571827398394	3
+86	72	0.591827398394	4
+86	90	0.611827398394	5
+86	92	0.631827398394	6
+86	96	0.651827398394	7
+87	25	0.531827398394	1.002
+87	29	0.551827398394	1.002
+87	57	0.571827398394	1.002
+87	72	0.591827398394	1.002
+87	90	0.611827398394	1.002
+87	92	0.631827398394	1.002
+87	96	0.651827398394	1.002
+92	5	0.150115314512	1
+92	8	0.200115314512	1.001
+92	10	0.250115314512	1
+92	13	0.300115314512	1.001
+92	15	0.350115314512	1
+92	18	0.400115314512	1.001
+92	20	0.450115314512	1
+92	23	0.500115314512	1.001
+92	27	0.550115314512	1
+92	88	0.600115314512	1.001
+92	94	0.650115314512	1
+93	3	0.1	2490.2093352812
+93	7	0.2	2490.2093352812
+93	12	0.3	2490.1878352554
+93	17	0.4	2490.1455211814
+93	22	0.5	2490.0834041109
+93	87	0.6	2490.0027357533
+94	3	0.1	3382.770679328
+94	7	0.2	3382.770679328
+94	12	0.3	3382.7573618721
+94	17	0.4	3382.7311518658
+94	22	0.5	3382.6926755704
+94	87	0.6	3382.6427083145
+95	7	0.2	0.25286542447004
+95	12	0.3	0.49766294917859
+95	17	0.4	0.73056932500431
+95	22	0.5	0.94875413759194
+95	87	0.6	1.1723245016953
+96	12	0.3	2.4479752470855
+96	17	0.4	2.3290637582572
+96	22	0.5	2.1818481258762
+96	87	0.6	2.2357036410334
+97	12	0.3	1.4276208928798
+97	17	0.4	1.5553504369406
+97	22	0.5	1.6547258140606
+97	87	0.6	1.7983555805977

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/symulacja/simulations/results/VoIP-20ms_200b-*.vec"/>
+    <inputs name="/symulacja/simulations/results/VoIP-20ms_200b-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="Pakietyzacja SymScenerio.node[0].appl">
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[*].appl) AND name(Pakietyzacja)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[0].nic.mac1609_4) AND name(&quot;Interwały kanałów&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.rsu[0].appl) AND name(&quot;RX Packet&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="Pakietyzacja SymScenerio.node[0].appl" lineNameFormat="">
+        <properties name="X.Axis.Title" value="Czas"/>
+        <properties name="Y.Axis.Title" value="SCH / CCH / Pakietyzacja / Pakiety Dostarczone"/>
+        <properties name="Legend.Display" value="true"/>
+        <properties name="Legend.Border" value="true"/>
+        <properties name="Legend.Position" value="Below"/>
+        <properties name="Legend.Anchoring" value="South"/>
+        <properties name="Line.Type/SymScenerio.node[0].nic.mac1609_4 Interwały kanałów" value="SampleHold"/>
+        <properties name="Line.Type/SymScenerio.node[0].appl Pakietyzacja" value="Dots"/>
+        <properties name="Line.Type/SymScenerio.rsu[0].appl RX Packet" value="Dots"/>
+        <properties name="Symbols.Type/SymScenerio.node[0].nic.mac1609_4 Interwały kanałów" value="Dot"/>
+        <properties name="Line.Type/SymScenerio.node[2].appl Pakietyzacja" value="Dots"/>
+        <properties name="Line.Type/SymScenerio.node[1].appl Pakietyzacja" value="Dots"/>
+        <properties name="Line.Type/SymScenerio.node[4].appl Pakietyzacja" value="Dots"/>
+        <properties name="Line.Type/SymScenerio.node[3].appl Pakietyzacja" value="Dots"/>
+        <properties name="Line.Name/SymScenerio.node[0].nic.mac1609_4 Interwały kanałów" value="SymScenerio.node[0].nic.mac1609_4 Interwały kanałów"/>
+        <properties name="Line.Color/SymScenerio.node[0].nic.mac1609_4 Interwały kanałów" value="#23E365"/>
+      </items>
+    </datasets>
+    <datasets name="VoIP-20ms_200b  #0">
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[0].appl) AND name(&quot;TX Packets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[0].appl) AND name(&quot;RX Packets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[1].appl) AND name(&quot;TX Packets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[1].appl) AND name(&quot;RX Packets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[2].appl) AND name(&quot;TX Packets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[2].appl) AND name(&quot;RX Packets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[3].appl) AND name(&quot;TX Packets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[3].appl) AND name(&quot;RX Packets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[4].appl) AND name(&quot;TX Packets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[4].appl) AND name(&quot;RX Packets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.rsu[0].appl) AND name(&quot;Total TX Pacets&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.rsu[0].appl) AND name(&quot;Total RX Pacets&quot;)"/>
+      <items xsi:type="scave:BarChart" name="20ms-PakietyTx_vs_Rx">
+        <properties name="Graph.Title" value="Pakiety wysłane vs dostarczone"/>
+        <properties name="X.Axis.Title" value="Node name"/>
+        <properties name="Y.Axis.Title" value="Liczba pakietów"/>
+        <properties name="Legend.Display" value="true"/>
+        <properties name="Legend.Border" value="true"/>
+        <properties name="Legend.Position" value="Below"/>
+        <properties name="Legend.Anchoring" value="South"/>
+        <properties name="Bar.Placement" value="Overlap"/>
+      </items>
+    </datasets>
+    <datasets name="VoIP-20ms_200b-PER">
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[0].appl) AND name(PER)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[1].appl) AND name(PER)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[2].appl) AND name(PER)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[3].appl) AND name(PER)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[4].appl) AND name(PER)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.rsu[0].appl) AND name(&quot;PER Total&quot;)"/>
+      <items xsi:type="scave:BarChart" name="VoIP-20ms_200b-PER">
+        <properties name="Graph.Title" value="Pakietowa stopa błędów"/>
+        <properties name="X.Axis.Title" value="Node Name"/>
+        <properties name="Y.Axis.Title" value="Stopa błędów [%]"/>
+        <properties name="Legend.Display" value="true"/>
+        <properties name="Legend.Border" value="true"/>
+        <properties name="Legend.Position" value="Below"/>
+        <properties name="Legend.Anchoring" value="South"/>
+        <properties name="Bar.Placement" value="InFront"/>
+      </items>
+    </datasets>
+    <datasets name="VoIP-20ms_200b-Opóźnienia">
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[0].appl) AND name(&quot;Średnie opóźnienie&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[1].appl) AND name(&quot;Średnie opóźnienie&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[2].appl) AND name(&quot;Średnie opóźnienie&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[3].appl) AND name(&quot;Średnie opóźnienie&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.node[4].appl) AND name(&quot;Średnie opóźnienie&quot;)"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.rsu[0].appl) AND name(&quot;Całkowite średnie opóźnienie&quot;)"/>
+      <items xsi:type="scave:BarChart" name="VoIP-20ms_200b-Opóźnienia">
+        <properties name="Graph.Title" value="Opóźnienie"/>
+        <properties name="X.Axis.Title" value="Node Name"/>
+        <properties name="Y.Axis.Title" value="Opóźnienie [s]"/>
+        <properties name="Legend.Display" value="true"/>
+        <properties name="Legend.Border" value="true"/>
+        <properties name="Legend.Position" value="Below"/>
+        <properties name="Legend.Anchoring" value="South"/>
+        <properties name="Bar.Placement" value="InFront"/>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="VoIP-20ms" charts="//@datasets/@datasets.1/@items.12 //@datasets/@datasets.0/@items.3 //@datasets/@datasets.2/@items.6 //@datasets/@datasets.3/@items.6"/>
+  </chartSheets>
+</scave:Analysis>
