@@ -1,0 +1,1400 @@
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-10ms_120B, run #0...
+Scenario: $repetition=0
+Assigned runID=VoIP-10ms_120B-0-20160923-13:58:07-13156
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #1036986   t=76   Elapsed: 54.940s (0m 54s)  100% completed
+     Speed:     ev/sec=18874.9   simsec/sec=1.38242   ev/simsec=13653.5
+     Messages:  created: 787917   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #1036986, t=76.
+
+
+Calling finish() at end of Run #0...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 30600
+[INFO]	Suma odebranych pakietów: 19049
+[INFO]	PER wynosi: 37.7484%
+[INFO]	Średnie opóźnienie wynosi: 0.009935350043
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-10ms_120B, run #1...
+Scenario: $repetition=1
+Assigned runID=VoIP-10ms_120B-1-20160923-13:59:02-13170
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #1028400   t=76   Elapsed: 55.139s (0m 55s)  100% completed
+     Speed:     ev/sec=18651.4   simsec/sec=1.37746   ev/simsec=13540.4
+     Messages:  created: 781515   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #1028400, t=76.
+
+
+Calling finish() at end of Run #1...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 30586
+[INFO]	Suma odebranych pakietów: 18029
+[INFO]	PER wynosi: 41.0547%
+[INFO]	Średnie opóźnienie wynosi: 0.009376791129
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-10ms_120B, run #2...
+Scenario: $repetition=2
+Assigned runID=VoIP-10ms_120B-2-20160923-13:59:58-13180
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #1031149   t=76   Elapsed: 55.103s (0m 55s)  100% completed
+     Speed:     ev/sec=18713.1   simsec/sec=1.37833   ev/simsec=13576.6
+     Messages:  created: 783412   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #1031149, t=76.
+
+
+Calling finish() at end of Run #2...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 30494
+[INFO]	Suma odebranych pakietów: 18696
+[INFO]	PER wynosi: 38.6896%
+[INFO]	Średnie opóźnienie wynosi: 0.008318793001
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-10ms_120B, run #3...
+Scenario: $repetition=3
+Assigned runID=VoIP-10ms_120B-3-20160923-14:00:53-13472
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #1026764   t=76   Elapsed: 54.240s (0m 54s)  100% completed
+     Speed:     ev/sec=18930   simsec/sec=1.40026   ev/simsec=13518.9
+     Messages:  created: 780223   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #1026764, t=76.
+
+
+Calling finish() at end of Run #3...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 30395
+[INFO]	Suma odebranych pakietów: 18361
+[INFO]	PER wynosi: 39.592%
+[INFO]	Średnie opóźnienie wynosi: 0.01106633297
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-10ms_120B, run #4...
+Scenario: $repetition=4
+Assigned runID=VoIP-10ms_120B-4-20160923-14:01:47-13481
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #1022656   t=76   Elapsed: 54.331s (0m 54s)  100% completed
+     Speed:     ev/sec=18822.7   simsec/sec=1.39791   ev/simsec=13464.8
+     Messages:  created: 777035   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #1022656, t=76.
+
+
+Calling finish() at end of Run #4...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 30506
+[INFO]	Suma odebranych pakietów: 17551
+[INFO]	PER wynosi: 42.4671%
+[INFO]	Średnie opóźnienie wynosi: 0.011481790146
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-10ms_120B, run #5...
+Scenario: $repetition=5
+Assigned runID=VoIP-10ms_120B-5-20160923-14:02:42-14495
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #1023798   t=76   Elapsed: 54.339s (0m 54s)  100% completed
+     Speed:     ev/sec=18840.9   simsec/sec=1.39771   ev/simsec=13479.9
+     Messages:  created: 777827   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #1023798, t=76.
+
+
+Calling finish() at end of Run #5...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 30570
+[INFO]	Suma odebranych pakietów: 17576
+[INFO]	PER wynosi: 42.5057%
+[INFO]	Średnie opóźnienie wynosi: 0.011246213085
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-10ms_120B, run #6...
+Scenario: $repetition=6
+Assigned runID=VoIP-10ms_120B-6-20160923-14:03:36-14504
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #1033382   t=76   Elapsed: 54.267s (0m 54s)  100% completed
+     Speed:     ev/sec=19042.5   simsec/sec=1.39956   ev/simsec=13606.1
+     Messages:  created: 785108   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #1033382, t=76.
+
+
+Calling finish() at end of Run #6...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 30527
+[INFO]	Suma odebranych pakietów: 18910
+[INFO]	PER wynosi: 38.0548%
+[INFO]	Średnie opóźnienie wynosi: 0.009763906473
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-10ms_120B, run #7...
+Scenario: $repetition=7
+Assigned runID=VoIP-10ms_120B-7-20160923-14:04:31-14512
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #1030413   t=76   Elapsed: 54.731s (0m 54s)  100% completed
+     Speed:     ev/sec=18826.9   simsec/sec=1.3877   ev/simsec=13567
+     Messages:  created: 782959   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #1030413, t=76.
+
+
+Calling finish() at end of Run #7...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 30568
+[INFO]	Suma odebranych pakietów: 18297
+[INFO]	PER wynosi: 40.1433%
+[INFO]	Średnie opóźnienie wynosi: 0.010389244079
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-10ms_120B, run #8...
+Scenario: $repetition=8
+Assigned runID=VoIP-10ms_120B-8-20160923-14:05:26-14520
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #1033924   t=76   Elapsed: 54.478s (0m 54s)  100% completed
+     Speed:     ev/sec=18978.7   simsec/sec=1.39414   ev/simsec=13613.2
+     Messages:  created: 785480   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #1033924, t=76.
+
+
+Calling finish() at end of Run #8...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 30524
+[INFO]	Suma odebranych pakietów: 19033
+[INFO]	PER wynosi: 37.6458%
+[INFO]	Średnie opóźnienie wynosi: 0.009798780955
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-10ms_120B, run #9...
+Scenario: $repetition=9
+Assigned runID=VoIP-10ms_120B-9-20160923-14:06:20-14529
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #1031878   t=76   Elapsed: 54.767s (0m 54s)  100% completed
+     Speed:     ev/sec=18841.2   simsec/sec=1.38679   ev/simsec=13586.3
+     Messages:  created: 783942   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #1031878, t=76.
+
+
+Calling finish() at end of Run #9...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 30602
+[INFO]	Suma odebranych pakietów: 18637
+[INFO]	PER wynosi: 39.0988%
+[INFO]	Średnie opóźnienie wynosi: 0.010284266612
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-20ms_200B, run #0...
+Scenario: $repetition=0
+Assigned runID=VoIP-20ms_200B-0-20160923-14:07:15-14538
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #537174   t=76   Elapsed: 29.130s (0m 29s)  100% completed
+     Speed:     ev/sec=18440.6   simsec/sec=2.60729   ev/simsec=7072.71
+     Messages:  created: 404995   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #537174, t=76.
+
+
+Calling finish() at end of Run #0...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 15307
+[INFO]	Suma odebranych pakietów: 11258
+[INFO]	PER wynosi: 26.452%
+[INFO]	Średnie opóźnienie wynosi: 0.011285353194
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-20ms_200B, run #1...
+Scenario: $repetition=1
+Assigned runID=VoIP-20ms_200B-1-20160923-14:07:44-14546
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #520042   t=76   Elapsed: 28.460s (0m 28s)  100% completed
+     Speed:     ev/sec=18272.7   simsec/sec=2.66867   ev/simsec=6847.14
+     Messages:  created: 391969   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #520042, t=76.
+
+
+Calling finish() at end of Run #1...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 15268
+[INFO]	Suma odebranych pakietów: 9326
+[INFO]	PER wynosi: 38.918%
+[INFO]	Średnie opóźnienie wynosi: 0.01111291929
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-20ms_200B, run #2...
+Scenario: $repetition=2
+Assigned runID=VoIP-20ms_200B-2-20160923-14:08:13-14551
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #526682   t=76   Elapsed: 28.736s (0m 28s)  100% completed
+     Speed:     ev/sec=18328.3   simsec/sec=2.64304   ev/simsec=6934.56
+     Messages:  created: 396996   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #526682, t=76.
+
+
+Calling finish() at end of Run #2...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 15329
+[INFO]	Suma odebranych pakietów: 9951
+[INFO]	PER wynosi: 35.0838%
+[INFO]	Średnie opóźnienie wynosi: 0.009771417726
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-20ms_200B, run #3...
+Scenario: $repetition=3
+Assigned runID=VoIP-20ms_200B-3-20160923-14:08:42-14559
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #529687   t=76   Elapsed: 29.571s (0m 29s)  100% completed
+     Speed:     ev/sec=17912.4   simsec/sec=2.5684   ev/simsec=6974.13
+     Messages:  created: 399352   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #529687, t=76.
+
+
+Calling finish() at end of Run #3...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 15256
+[INFO]	Suma odebranych pakietów: 10466
+[INFO]	PER wynosi: 31.3975%
+[INFO]	Średnie opóźnienie wynosi: 0.011785363896
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-20ms_200B, run #4...
+Scenario: $repetition=4
+Assigned runID=VoIP-20ms_200B-4-20160923-14:09:12-14587
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #525488   t=76   Elapsed: 28.814s (0m 28s)  100% completed
+     Speed:     ev/sec=18237.2   simsec/sec=2.63587   ev/simsec=6918.86
+     Messages:  created: 396173   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #525488, t=76.
+
+
+Calling finish() at end of Run #4...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 15273
+[INFO]	Suma odebranych pakietów: 9868
+[INFO]	PER wynosi: 35.3892%
+[INFO]	Średnie opóźnienie wynosi: 0.012502256938
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-20ms_200B, run #5...
+Scenario: $repetition=5
+Assigned runID=VoIP-20ms_200B-5-20160923-14:09:41-14596
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #526128   t=76   Elapsed: 28.578s (0m 28s)  100% completed
+     Speed:     ev/sec=18410.2   simsec/sec=2.65765   ev/simsec=6927.27
+     Messages:  created: 396620   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #526128, t=76.
+
+
+Calling finish() at end of Run #5...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 15216
+[INFO]	Suma odebranych pakietów: 10148
+[INFO]	PER wynosi: 33.307%
+[INFO]	Średnie opóźnienie wynosi: 0.011426813043
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-20ms_200B, run #6...
+Scenario: $repetition=6
+Assigned runID=VoIP-20ms_200B-6-20160923-14:10:09-14603
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #526221   t=76   Elapsed: 28.779s (0m 28s)  100% completed
+     Speed:     ev/sec=18284.9   simsec/sec=2.63908   ev/simsec=6928.51
+     Messages:  created: 396709   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #526221, t=76.
+
+
+Calling finish() at end of Run #6...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 15330
+[INFO]	Suma odebranych pakietów: 9856
+[INFO]	PER wynosi: 35.7078%
+[INFO]	Średnie opóźnienie wynosi: 0.012158412805
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-20ms_200B, run #7...
+Scenario: $repetition=7
+Assigned runID=VoIP-20ms_200B-7-20160923-14:10:38-14614
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #521080   t=76   Elapsed: 28.627s (0m 28s)  100% completed
+     Speed:     ev/sec=18202.4   simsec/sec=2.65309   ev/simsec=6860.82
+     Messages:  created: 392776   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #521080, t=76.
+
+
+Calling finish() at end of Run #7...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 15282
+[INFO]	Suma odebranych pakietów: 9351
+[INFO]	PER wynosi: 38.8104%
+[INFO]	Średnie opóźnienie wynosi: 0.012141664268
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-20ms_200B, run #8...
+Scenario: $repetition=8
+Assigned runID=VoIP-20ms_200B-8-20160923-14:11:07-14622
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #529774   t=76   Elapsed: 28.814s (0m 28s)  100% completed
+     Speed:     ev/sec=18386   simsec/sec=2.63587   ev/simsec=6975.29
+     Messages:  created: 399284   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #529774, t=76.
+
+
+Calling finish() at end of Run #8...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 15308
+[INFO]	Suma odebranych pakietów: 10450
+[INFO]	PER wynosi: 31.735%
+[INFO]	Średnie opóźnienie wynosi: 0.010416144221
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-20ms_200B, run #9...
+Scenario: $repetition=9
+Assigned runID=VoIP-20ms_200B-9-20160923-14:11:36-14631
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #528734   t=76   Elapsed: 28.513s (0m 28s)  100% completed
+     Speed:     ev/sec=18543.6   simsec/sec=2.6637   ev/simsec=6961.59
+     Messages:  created: 398518   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #528734, t=76.
+
+
+Calling finish() at end of Run #9...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 15282
+[INFO]	Suma odebranych pakietów: 10379
+[INFO]	PER wynosi: 32.0835%
+[INFO]	Średnie opóźnienie wynosi: 0.010429382284
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-30ms_280B, run #0...
+Scenario: $repetition=0
+Assigned runID=VoIP-30ms_280B-0-20160923-14:12:05-14637
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #358157   t=76   Elapsed: 19.993s (0m 19s)  100% completed
+     Speed:     ev/sec=17914.1   simsec/sec=3.79884   ev/simsec=4715.68
+     Messages:  created: 267898   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #358157, t=76.
+
+
+Calling finish() at end of Run #0...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 10158
+[INFO]	Suma odebranych pakietów: 7316
+[INFO]	PER wynosi: 27.9779%
+[INFO]	Średnie opóźnienie wynosi: 0.011226722714
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-30ms_280B, run #1...
+Scenario: $repetition=1
+Assigned runID=VoIP-30ms_280B-1-20160923-14:12:25-14643
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #357106   t=76   Elapsed: 19.967s (0m 19s)  100% completed
+     Speed:     ev/sec=17884.8   simsec/sec=3.80379   ev/simsec=4701.84
+     Messages:  created: 267198   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #357106, t=76.
+
+
+Calling finish() at end of Run #1...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 10176
+[INFO]	Suma odebranych pakietów: 7095
+[INFO]	PER wynosi: 30.2771%
+[INFO]	Średnie opóźnienie wynosi: 0.013421805501
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-30ms_280B, run #2...
+Scenario: $repetition=2
+Assigned runID=VoIP-30ms_280B-2-20160923-14:12:45-14653
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #356208   t=76   Elapsed: 19.895s (0m 19s)  100% completed
+     Speed:     ev/sec=17904.4   simsec/sec=3.81756   ev/simsec=4690.02
+     Messages:  created: 266438   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #356208, t=76.
+
+
+Calling finish() at end of Run #2...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 10166
+[INFO]	Suma odebranych pakietów: 7051
+[INFO]	PER wynosi: 30.6414%
+[INFO]	Średnie opóźnienie wynosi: 0.013345809857
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-30ms_280B, run #3...
+Scenario: $repetition=3
+Assigned runID=VoIP-30ms_280B-3-20160923-14:13:05-14661
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #357397   t=76   Elapsed: 19.662s (0m 19s)  100% completed
+     Speed:     ev/sec=18177   simsec/sec=3.86279   ev/simsec=4705.67
+     Messages:  created: 267420   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #357397, t=76.
+
+
+Calling finish() at end of Run #3...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 10160
+[INFO]	Suma odebranych pakietów: 7132
+[INFO]	PER wynosi: 29.8032%
+[INFO]	Średnie opóźnienie wynosi: 0.013241233
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-30ms_280B, run #4...
+Scenario: $repetition=4
+Assigned runID=VoIP-30ms_280B-4-20160923-14:13:25-14667
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #360602   t=76   Elapsed: 20.324s (0m 20s)  100% completed
+     Speed:     ev/sec=17742.7   simsec/sec=3.73696   ev/simsec=4747.88
+     Messages:  created: 269772   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #360602, t=76.
+
+
+Calling finish() at end of Run #4...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 10210
+[INFO]	Suma odebranych pakietów: 7422
+[INFO]	PER wynosi: 27.3066%
+[INFO]	Średnie opóźnienie wynosi: 0.011311577383
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-30ms_280B, run #5...
+Scenario: $repetition=5
+Assigned runID=VoIP-30ms_280B-5-20160923-14:13:45-14674
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #352630   t=76   Elapsed: 20.050s (0m 20s)  100% completed
+     Speed:     ev/sec=17587.5   simsec/sec=3.78804   ev/simsec=4642.91
+     Messages:  created: 263707   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #352630, t=76.
+
+
+Calling finish() at end of Run #5...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 10164
+[INFO]	Suma odebranych pakietów: 6607
+[INFO]	PER wynosi: 34.9961%
+[INFO]	Średnie opóźnienie wynosi: 0.012552632163
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-30ms_280B, run #6...
+Scenario: $repetition=6
+Assigned runID=VoIP-30ms_280B-6-20160923-14:14:05-14681
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #359289   t=76   Elapsed: 20.101s (0m 20s)  100% completed
+     Speed:     ev/sec=17874.2   simsec/sec=3.77842   ev/simsec=4730.6
+     Messages:  created: 268836   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #359289, t=76.
+
+
+Calling finish() at end of Run #6...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 10160
+[INFO]	Suma odebranych pakietów: 7399
+[INFO]	PER wynosi: 27.1752%
+[INFO]	Średnie opóźnienie wynosi: 0.01325906724
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-30ms_280B, run #7...
+Scenario: $repetition=7
+Assigned runID=VoIP-30ms_280B-7-20160923-14:14:25-14687
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #355003   t=76   Elapsed: 19.849s (0m 19s)  100% completed
+     Speed:     ev/sec=17885.2   simsec/sec=3.82639   ev/simsec=4674.16
+     Messages:  created: 265527   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #355003, t=76.
+
+
+Calling finish() at end of Run #7...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 10184
+[INFO]	Suma odebranych pakietów: 6829
+[INFO]	PER wynosi: 32.9438%
+[INFO]	Średnie opóźnienie wynosi: 0.012907338783
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-30ms_280B, run #8...
+Scenario: $repetition=8
+Assigned runID=VoIP-30ms_280B-8-20160923-14:14:45-14695
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #359979   t=76   Elapsed: 20.176s (0m 20s)  100% completed
+     Speed:     ev/sec=17841.9   simsec/sec=3.76438   ev/simsec=4739.68
+     Messages:  created: 269307   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #359979, t=76.
+
+
+Calling finish() at end of Run #8...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 10204
+[INFO]	Suma odebranych pakietów: 7407
+[INFO]	PER wynosi: 27.4108%
+[INFO]	Średnie opóźnienie wynosi: 0.011789212337
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-30ms_280B, run #9...
+Scenario: $repetition=9
+Assigned runID=VoIP-30ms_280B-9-20160923-14:15:06-14699
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #355009   t=76   Elapsed: 19.858s (0m 19s)  100% completed
+     Speed:     ev/sec=17877.4   simsec/sec=3.82466   ev/simsec=4674.24
+     Messages:  created: 265541   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #355009, t=76.
+
+
+Calling finish() at end of Run #9...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 10179
+[INFO]	Suma odebranych pakietów: 6870
+[INFO]	PER wynosi: 32.5081%
+[INFO]	Średnie opóźnienie wynosi: 0.011741330352
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-50ms_440B, run #0...
+Scenario: $repetition=0
+Assigned runID=VoIP-50ms_440B-0-20160923-14:15:26-14706
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #221095   t=76   Elapsed: 13.082s (0m 13s)  100% completed
+     Speed:     ev/sec=16900.7   simsec/sec=5.80571   ev/simsec=2911.05
+     Messages:  created: 162951   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #221095, t=76.
+
+
+Calling finish() at end of Run #0...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 6115
+[INFO]	Suma odebranych pakietów: 4643
+[INFO]	PER wynosi: 24.072%
+[INFO]	Średnie opóźnienie wynosi: 0.014882223181
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-50ms_440B, run #1...
+Scenario: $repetition=1
+Assigned runID=VoIP-50ms_440B-1-20160923-14:15:39-14715
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #222166   t=76   Elapsed: 12.955s (0m 12s)  100% completed
+     Speed:     ev/sec=17149.1   simsec/sec=5.86262   ev/simsec=2925.15
+     Messages:  created: 163730   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #222166, t=76.
+
+
+Calling finish() at end of Run #1...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 6099
+[INFO]	Suma odebranych pakietów: 4850
+[INFO]	PER wynosi: 20.4788%
+[INFO]	Średnie opóźnienie wynosi: 0.012536995395
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-50ms_440B, run #2...
+Scenario: $repetition=2
+Assigned runID=VoIP-50ms_440B-2-20160923-14:15:52-14720
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #222556   t=76   Elapsed: 13.103s (0m 13s)  100% completed
+     Speed:     ev/sec=16985.1   simsec/sec=5.7964   ev/simsec=2930.29
+     Messages:  created: 164046   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #222556, t=76.
+
+
+Calling finish() at end of Run #2...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 6099
+[INFO]	Suma odebranych pakietów: 4873
+[INFO]	PER wynosi: 20.1017%
+[INFO]	Średnie opóźnienie wynosi: 0.010536119005
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-50ms_440B, run #3...
+Scenario: $repetition=3
+Assigned runID=VoIP-50ms_440B-3-20160923-14:16:05-14725
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #222184   t=76   Elapsed: 13.419s (0m 13s)  100% completed
+     Speed:     ev/sec=16558.7   simsec/sec=5.66033   ev/simsec=2925.39
+     Messages:  created: 163785   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #222184, t=76.
+
+
+Calling finish() at end of Run #3...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 6087
+[INFO]	Suma odebranych pakietów: 4839
+[INFO]	PER wynosi: 20.5027%
+[INFO]	Średnie opóźnienie wynosi: 0.009234327744
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-50ms_440B, run #4...
+Scenario: $repetition=4
+Assigned runID=VoIP-50ms_440B-4-20160923-14:16:19-14729
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #215391   t=76   Elapsed: 12.825s (0m 12s)  100% completed
+     Speed:     ev/sec=16794.6   simsec/sec=5.92203   ev/simsec=2835.96
+     Messages:  created: 158596   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #215391, t=76.
+
+
+Calling finish() at end of Run #4...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 6107
+[INFO]	Suma odebranych pakietów: 3983
+[INFO]	PER wynosi: 34.7798%
+[INFO]	Średnie opóźnienie wynosi: 0.021472748432
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-50ms_440B, run #5...
+Scenario: $repetition=5
+Assigned runID=VoIP-50ms_440B-5-20160923-14:16:32-14734
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #223111   t=76   Elapsed: 13.093s (0m 13s)  100% completed
+     Speed:     ev/sec=17040.5   simsec/sec=5.80083   ev/simsec=2937.59
+     Messages:  created: 164445   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #223111, t=76.
+
+
+Calling finish() at end of Run #5...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 6123
+[INFO]	Suma odebranych pakietów: 4884
+[INFO]	PER wynosi: 20.2352%
+[INFO]	Średnie opóźnienie wynosi: 0.011225196539
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-50ms_440B, run #6...
+Scenario: $repetition=6
+Assigned runID=VoIP-50ms_440B-6-20160923-14:16:45-14740
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #221833   t=76   Elapsed: 13.112s (0m 13s)  100% completed
+     Speed:     ev/sec=16918.3   simsec/sec=5.79241   ev/simsec=2920.77
+     Messages:  created: 163487   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #221833, t=76.
+
+
+Calling finish() at end of Run #6...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 6099
+[INFO]	Suma odebranych pakietów: 4795
+[INFO]	PER wynosi: 21.3806%
+[INFO]	Średnie opóźnienie wynosi: 0.012380782603
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-50ms_440B, run #7...
+Scenario: $repetition=7
+Assigned runID=VoIP-50ms_440B-7-20160923-14:16:58-14744
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #222488   t=76   Elapsed: 13.485s (0m 13s)  100% completed
+     Speed:     ev/sec=16498.9   simsec/sec=5.63219   ev/simsec=2929.4
+     Messages:  created: 163999   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #222488, t=76.
+
+
+Calling finish() at end of Run #7...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 6101
+[INFO]	Suma odebranych pakietów: 4845
+[INFO]	PER wynosi: 20.5868%
+[INFO]	Średnie opóźnienie wynosi: 0.008231089956
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-50ms_440B, run #8...
+Scenario: $repetition=8
+Assigned runID=VoIP-50ms_440B-8-20160923-14:17:12-14751
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #222294   t=76   Elapsed: 13.210s (0m 13s)  100% completed
+     Speed:     ev/sec=16827.7   simsec/sec=5.74944   ev/simsec=2926.84
+     Messages:  created: 163841   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #222294, t=76.
+
+
+Calling finish() at end of Run #8...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 6085
+[INFO]	Suma odebranych pakietów: 4892
+[INFO]	PER wynosi: 19.6056%
+[INFO]	Średnie opóźnienie wynosi: 0.012505228065
+
+End.
+OMNeT++ Discrete Event Simulation  (C) 1992-2016 Andras Varga, OpenSim Ltd.
+Version: 5.0, build: 160414-aa4629c, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+Setting up Cmdenv...
+Loading NED files from .:  2
+Loading NED files from ../src:  31
+Loading NED files from /home/alatek/Dokumenty/SYMULACJE/soft/omnetpp-5.0/rozkmina/symulacja/simulations:  2
+
+Preparing for running configuration VoIP-50ms_440B, run #9...
+Scenario: $repetition=9
+Assigned runID=VoIP-50ms_440B-9-20160923-14:17:25-14756
+Setting up network `SymScenerio'...
+Initializing...
+
+Running simulation...
+** Event #0   t=0   Elapsed: 0.000s (0m 00s)  0% completed
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 9   present: 9   in FES: 4
+** Event #222572   t=76   Elapsed: 13.094s (0m 13s)  100% completed
+     Speed:     ev/sec=16998   simsec/sec=5.80038   ev/simsec=2930.5
+     Messages:  created: 164037   present: 14   in FES: 1
+
+<!> Simulation time limit reached -- simulation stopped at event #222572, t=76.
+
+
+Calling finish() at end of Run #9...
+[INFO]	Writing TraCI message of 2 bytes
+[INFO]	Reading TraCI message of 7 bytes
+[INFO]	Wywołuję funkcę finish() dla modułu: rsu
+[INFO]	Suma wysłanych pakietów: 6115
+[INFO]	Suma odebranych pakietów: 4865
+[INFO]	PER wynosi: 20.4415%
+[INFO]	Średnie opóźnienie wynosi: 0.012947585061
+
+End.

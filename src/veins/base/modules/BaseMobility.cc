@@ -108,6 +108,7 @@ void BaseMobility::initialize(int stage)
         move.setStart(pos);
 		coreEV << "start pos: " << move.getStartPos().info() << endl;
 
+
         //check whether position is within the playground
         if (!isInBoundary(move.getStartPos(), Coord::ZERO, *world->getPgs())) {
             error("node position specified in omnetpp.ini exceeds playgroundsize");

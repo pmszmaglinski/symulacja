@@ -18,6 +18,19 @@ import symulacja.veins.modules.application.ieee80211p.BaseWaveApplLayer;
 
 simple SymRSU11p extends BaseWaveApplLayer
 {
+	@signal[node0](type=simtime_t);
+	@signal[node1](type=simtime_t);
+	@signal[node2](type=simtime_t);
+	@signal[node3](type=simtime_t);
+	@signal[node4](type=simtime_t);
+	@signal[nodeALL](type=simtime_t);
+	@statistic[node0](title="Opoznienia node0"; source="node0"; record=vector,stats,histogram);
+	@statistic[node1](title="Opoznienia node1"; source="node1"; record=vector,stats,histogram);
+	@statistic[node2](title="Opoznienia node2"; source="node2"; record=vector,stats,histogram);
+	@statistic[node3](title="Opoznienia node3"; source="node3"; record=vector,stats,histogram);
+	@statistic[node4](title="Opoznienia node4"; source="node4"; record=vector,stats,histogram);
+	@statistic[nodeALL](title="Opoznienia ALL"; source="nodeALL"; record=vector,stats,histogram);
+	
     @class(SymRSU11p);
     @display("i=block/app2");
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/symulacja/simulations/results/VoIP-50ms_440B-*.vec"/>
+    <inputs name="/symulacja/simulations/results/VoIP-50ms_440B-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="PER-50ms">
+      <items xsi:type="scave:Add" filterPattern="run(*) AND module(*.node[*].appl) AND name(PER)"/>
+      <items xsi:type="scave:BarChart"/>
+    </datasets>
+    <datasets name="node0:vector SymScenerio.rsu[0].appl">
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.rsu[0].appl) AND name(node0:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(SymScenerio.rsu[0].nic.mac1609_4) AND name(&quot;Interwały kanałów&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="node0:vector SymScenerio.rsu[0].appl" lineNameFormat="">
+        <properties name="Line.Type" value="Pins"/>
+        <properties name="Line.Type/SymScenerio.rsu[0].nic.mac1609_4 Interwały kanałów" value="SampleHold"/>
+      </items>
+    </datasets>
+    <datasets name="Pakietyzacja">
+      <items xsi:type="scave:Add" filterPattern="file(/symulacja/simulations/results/VoIP-50ms_440B-0.vec) AND attr:configname(VoIP-50ms_440B) AND attr:runnumber(0) AND module(SymScenerio.node[0].appl) AND name(Pakietyzacja)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/symulacja/simulations/results/VoIP-50ms_440B-0.vec) AND attr:configname(VoIP-50ms_440B) AND attr:runnumber(0) AND module(SymScenerio.node[0].nic.mac1609_4) AND name(&quot;Interwały kanałów&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="" lineNameFormat="">
+        <properties name="Line.Type" value="SampleHold"/>
+        <properties name="Line.Type/SymScenerio.node[0].nic.mac1609_4 Interwały kanałów" value="SampleHold"/>
+        <properties name="Line.Color/SymScenerio.node[0].nic.mac1609_4 Interwały kanałów" value="#008000"/>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.1 //@datasets/@datasets.2/@items.2"/>
+  </chartSheets>
+</scave:Analysis>

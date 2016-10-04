@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/symulacja/simulations/results/VoIP-20ms_200B-*.vec"/>
+    <inputs name="/symulacja/simulations/results/VoIP-20ms_200B-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="PER-20ms">
+      <items xsi:type="scave:Add" filterPattern="run(*) AND module(*.node[*].appl) AND name(PER)"/>
+      <items xsi:type="scave:BarChart"/>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.1"/>
+  </chartSheets>
+</scave:Analysis>

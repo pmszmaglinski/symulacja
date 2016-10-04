@@ -163,7 +163,7 @@ void Mac1609_4::handleSelfMsg(cMessage* msg) {
 				channelBusySelf(false);
 				setActiveChannel(type_SCH);
 				//SCHIntVec.record(0); // Zapis do wektora kanału SCH
-				channelIntervalVec.record(1.00);
+				channelIntervalVec.record(0.001);
 				channelIdle(true);
 				phy11p->changeListeningFrequency(frequency[mySCH]);
 				break;
@@ -172,7 +172,7 @@ void Mac1609_4::handleSelfMsg(cMessage* msg) {
 				channelBusySelf(false);
 				setActiveChannel(type_CCH);
 				//CCHIntVec.record(0.01); // Zapis do wektora kanału CCH
-				channelIntervalVec.record(1.001);
+				channelIntervalVec.record(0.002);
 				channelIdle(true);
 				phy11p->changeListeningFrequency(frequency[Channels::CCH]);
 				break;

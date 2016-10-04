@@ -33,7 +33,7 @@ import symulacja.veins.base.modules.IBaseApplLayer;
 //
 simple BaseWaveApplLayer like IBaseApplLayer
 {
-    parameters:
+    parameters:      
         bool debug = default(false); //whether to print debug output
         int headerLength = default(40bit) @unit(bit); //header length of the application default 88
 
@@ -55,7 +55,6 @@ simple BaseWaveApplLayer like IBaseApplLayer
 		bool voipOnSch = default(true);
 		int voipPriority = default(3);
 		
-
     gates:
         input lowerLayerIn; // from mac layer
         output lowerLayerOut; // to mac layer

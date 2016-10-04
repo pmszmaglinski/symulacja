@@ -26,10 +26,17 @@
 class SymRSU11p : public BaseWaveApplLayer {
     public:
         virtual void initialize(int stage);
+        simsignal_t sigOpNode0;// Sygnal do zapisu statystyk czas/opoznienie
+        simsignal_t sigOpNode1;
+        simsignal_t sigOpNode2;
+        simsignal_t sigOpNode3;
+        simsignal_t sigOpNode4;
+        simsignal_t sigOpALL;
     protected:
         // Wektory
-        cOutVector rxVec;   // Sumuje przychodzące pakiety
+        //cOutVector rxVec;   // Sumuje przychodzące pakiety
         cOutVector rxPacketVec; // Do zestawienia pakietyzacji
+        //cOutVector opoznienieVec;   // Wektor opóźnień
     protected:
         virtual void onBeacon(WaveShortMessage* wsm);
         virtual void onData(WaveShortMessage* wsm);

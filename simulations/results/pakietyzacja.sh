@@ -1,0 +1,1 @@
+../pakietyzacja.sh

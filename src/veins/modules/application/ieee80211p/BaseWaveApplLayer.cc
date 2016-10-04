@@ -57,6 +57,7 @@ void BaseWaveApplLayer::initialize(int stage) {
 		txTotalVec.setName("TX Total");
 		pakietyzacjaVec.setName("Pakietyzacja");
 
+
 		//simulate asynchronous channel access
 		double offSet = dblrand() * (par("beaconInterval").doubleValue()/2);
 		offSet = offSet + floor(offSet/0.050)*0.050;
@@ -223,8 +224,8 @@ void BaseWaveApplLayer::finish() {
     EV << "Średnie opóźnienie wynosi: " << voipCounter->getSrOpTotal() << "\n";
 
     //Zaspianie skalarów
-    recordScalar("Total TX Pacets", voipCounter->getTotalTx());
-    recordScalar("Total RX Pacets", voipCounter->getTotalRx());
+    recordScalar("Total TX Packets", voipCounter->getTotalTx());
+    recordScalar("Total RX Packets", voipCounter->getTotalRx());
     recordScalar("PER Total", voipCounter->getPerTotal());
     recordScalar("Całkowite średnie opóźnienie", voipCounter->getSrOpTotal());
     }

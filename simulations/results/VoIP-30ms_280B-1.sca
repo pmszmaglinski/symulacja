@@ -1,0 +1,529 @@
+version 2
+run VoIP-30ms_280B-1-20160923-14:12:25-14643
+attr configname VoIP-30ms_280B
+attr datetime 20160923-14:12:25
+attr experiment VoIP-30ms_280B
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=1
+attr measurement ""
+attr network SymScenerio
+attr processid 14643
+attr repetition 1
+attr replication #1
+attr resultdir results
+attr runnumber 1
+attr seedset 1
+param **.coreDebug false
+param **.debug false
+param *.**.nic.mac1609_4.bitrate 18Mbps
+param *.**.nic.mac1609_4.txPower 20mW
+param *.**.nic.mac1609_4.useServiceChannel true
+param *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.sensitivity -89dBm
+param *.**.nic.phy80211p.thermalNoise -110dBm
+param *.**.nic.phy80211p.usePropagationDelay true
+param *.**.nic.phy80211p.useThermalNoise true
+param *.annotations.draw false
+param *.connectionManager.alpha 2.0
+param *.connectionManager.carrierFrequency "5.890e9 Hz"
+param *.connectionManager.pMax 20mW
+param *.connectionManager.sat -89dBm
+param *.connectionManager.sendDirect true
+param *.manager.autoShutdown true
+param *.manager.host "\"localhost\""
+param *.manager.launchConfig "xmldoc(\"map.launchd.xml\")"
+param *.manager.margin 25
+param *.manager.moduleDisplayString "\"\""
+param *.manager.moduleName "\"node\""
+param *.manager.moduleType "\"symulacja.veins.nodes.Car\""
+param *.manager.port 9999
+param *.manager.updateInterval 0.1s
+param *.node[*].appl.beaconInterval 1s
+param *.node[*].appl.beaconPriority 3
+param *.node[*].appl.dataOnSch false
+param *.node[*].appl.dataPriority 2
+param *.node[*].appl.debug false
+param *.node[*].appl.maxOffset 0.005s
+param *.node[*].appl.sendBeacons false
+param *.node[*].appl.sendData true
+param *.node[*].appl.sendVoIP true
+param *.node[*].appl.voipInterval 0.030s
+param *.node[*].appl.voipLengthBits 2240bits
+param *.node[*].appl.voipOnSch true
+param *.node[*].appl.voipPriority 3
+param *.node[*].applType "\"Sym11p\""
+param *.node[*].veinsmobility.x 0
+param *.node[*].veinsmobility.y 0
+param *.node[*].veinsmobility.z 1.895
+param *.node[*].veinsmobilityType "\"symulacja.veins.modules.mobility.traci.TraCIMobility\""
+param *.playgroundSizeX 9000m
+param *.playgroundSizeY 9000m
+param *.playgroundSizeZ 50m
+param *.rsu[*].appl.beaconInterval 1s
+param *.rsu[*].appl.beaconPriority 3
+param *.rsu[*].appl.dataOnSch false
+param *.rsu[*].appl.dataPriority 2
+param *.rsu[*].appl.debug false
+param *.rsu[*].appl.headerLength "256 bit"
+param *.rsu[*].appl.maxOffset 0.005s
+param *.rsu[*].appl.sendBeacons false
+param *.rsu[*].appl.sendData false
+param *.rsu[*].appl.sendVoIP false
+param *.rsu[*].applType "\"SymRSU11p\""
+param *.rsu[0].mobility.x 2160
+param *.rsu[0].mobility.y 3100
+param *.rsu[0].mobility.z 3
+param *.world.use2D false
+param *.world.useTorus false
+
+scalar SymScenerio.node[0].appl 	"TX Packets" 	2045
+scalar SymScenerio.node[0].appl 	"RX Packets" 	1342
+scalar SymScenerio.node[0].appl 	PER 	34.376529693604
+scalar SymScenerio.node[0].appl 	"Średnie opóźnienie" 	0.009922335041
+scalar SymScenerio.node[0].nic.phy80211p 	busyTime 	0.016756292682924
+scalar SymScenerio.node[0].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.node[0].nic.mac1609_4 	ReceivedBroadcasts 	4940
+scalar SymScenerio.node[0].nic.mac1609_4 	SentPackets 	2045
+scalar SymScenerio.node[0].nic.mac1609_4 	SNIRLostPackets 	1194
+scalar SymScenerio.node[0].nic.mac1609_4 	RXTXLostPackets 	999
+scalar SymScenerio.node[0].nic.mac1609_4 	TotalLostPackets 	2193
+scalar SymScenerio.node[0].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.node[0].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.node[0].nic.mac1609_4 	TimesIntoBackoff 	2679
+scalar SymScenerio.node[0].nic.mac1609_4 	SlotsBackoff 	3158
+scalar SymScenerio.node[0].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.node[0].nic.mac1609_4 	totalBusyTime 	1.269437990253
+scalar SymScenerio.node[0].veinsmobility 	startTime 	0.1
+scalar SymScenerio.node[0].veinsmobility 	totalTime 	61.4
+scalar SymScenerio.node[0].veinsmobility 	stopTime 	61.6
+scalar SymScenerio.node[0].veinsmobility 	minSpeed 	0.25457871402032
+scalar SymScenerio.node[0].veinsmobility 	maxSpeed 	13.889308851659
+scalar SymScenerio.node[0].veinsmobility 	totalDistance 	802.99501156601
+scalar SymScenerio.node[0].veinsmobility 	totalCO2Emission 	160.05095266449
+scalar SymScenerio.node[1].appl 	"TX Packets" 	2025
+scalar SymScenerio.node[1].appl 	"RX Packets" 	1590
+scalar SymScenerio.node[1].appl 	PER 	21.481481552124
+scalar SymScenerio.node[1].appl 	"Średnie opóźnienie" 	0.01078254098
+scalar SymScenerio.node[1].nic.phy80211p 	busyTime 	0.018652097560972
+scalar SymScenerio.node[1].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.node[1].nic.mac1609_4 	ReceivedBroadcasts 	4894
+scalar SymScenerio.node[1].nic.mac1609_4 	SentPackets 	2025
+scalar SymScenerio.node[1].nic.mac1609_4 	SNIRLostPackets 	1934
+scalar SymScenerio.node[1].nic.mac1609_4 	RXTXLostPackets 	630
+scalar SymScenerio.node[1].nic.mac1609_4 	TotalLostPackets 	2564
+scalar SymScenerio.node[1].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.node[1].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.node[1].nic.mac1609_4 	TimesIntoBackoff 	2589
+scalar SymScenerio.node[1].nic.mac1609_4 	SlotsBackoff 	3080
+scalar SymScenerio.node[1].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.node[1].nic.mac1609_4 	totalBusyTime 	1.311253744626
+scalar SymScenerio.node[1].veinsmobility 	startTime 	3.1
+scalar SymScenerio.node[1].veinsmobility 	totalTime 	61.4
+scalar SymScenerio.node[1].veinsmobility 	stopTime 	64.6
+scalar SymScenerio.node[1].veinsmobility 	minSpeed 	0.24811849370878
+scalar SymScenerio.node[1].veinsmobility 	maxSpeed 	13.889701411668
+scalar SymScenerio.node[1].veinsmobility 	totalDistance 	802.34257119029
+scalar SymScenerio.node[1].veinsmobility 	totalCO2Emission 	161.17619673509
+scalar SymScenerio.node[2].appl 	"TX Packets" 	2036
+scalar SymScenerio.node[2].appl 	"RX Packets" 	1416
+scalar SymScenerio.node[2].appl 	PER 	30.451866149902
+scalar SymScenerio.node[2].appl 	"Średnie opóźnienie" 	0.017480234085
+scalar SymScenerio.node[2].nic.phy80211p 	busyTime 	0.018335219512192
+scalar SymScenerio.node[2].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.node[2].nic.mac1609_4 	ReceivedBroadcasts 	5157
+scalar SymScenerio.node[2].nic.mac1609_4 	SentPackets 	2035
+scalar SymScenerio.node[2].nic.mac1609_4 	SNIRLostPackets 	1555
+scalar SymScenerio.node[2].nic.mac1609_4 	RXTXLostPackets 	861
+scalar SymScenerio.node[2].nic.mac1609_4 	TotalLostPackets 	2416
+scalar SymScenerio.node[2].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.node[2].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.node[2].nic.mac1609_4 	TimesIntoBackoff 	2646
+scalar SymScenerio.node[2].nic.mac1609_4 	SlotsBackoff 	3038
+scalar SymScenerio.node[2].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.node[2].nic.mac1609_4 	totalBusyTime 	1.329075995518
+scalar SymScenerio.node[2].veinsmobility 	startTime 	6.1
+scalar SymScenerio.node[2].veinsmobility 	totalTime 	61.4
+scalar SymScenerio.node[2].veinsmobility 	stopTime 	67.6
+scalar SymScenerio.node[2].veinsmobility 	minSpeed 	0.24818825844186
+scalar SymScenerio.node[2].veinsmobility 	maxSpeed 	13.889923416825
+scalar SymScenerio.node[2].veinsmobility 	totalDistance 	802.45633189861
+scalar SymScenerio.node[2].veinsmobility 	totalCO2Emission 	160.54641021539
+scalar SymScenerio.node[3].appl 	"TX Packets" 	2045
+scalar SymScenerio.node[3].appl 	"RX Packets" 	1284
+scalar SymScenerio.node[3].appl 	PER 	37.212715148926
+scalar SymScenerio.node[3].appl 	"Średnie opóźnienie" 	0.013558815679
+scalar SymScenerio.node[3].nic.phy80211p 	busyTime 	0.017549706840388
+scalar SymScenerio.node[3].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.node[3].nic.mac1609_4 	ReceivedBroadcasts 	5226
+scalar SymScenerio.node[3].nic.mac1609_4 	SentPackets 	2045
+scalar SymScenerio.node[3].nic.mac1609_4 	SNIRLostPackets 	1188
+scalar SymScenerio.node[3].nic.mac1609_4 	RXTXLostPackets 	1057
+scalar SymScenerio.node[3].nic.mac1609_4 	TotalLostPackets 	2245
+scalar SymScenerio.node[3].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.node[3].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.node[3].nic.mac1609_4 	TimesIntoBackoff 	2658
+scalar SymScenerio.node[3].nic.mac1609_4 	SlotsBackoff 	3072
+scalar SymScenerio.node[3].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.node[3].nic.mac1609_4 	totalBusyTime 	1.315978344321
+scalar SymScenerio.node[3].veinsmobility 	startTime 	9.1
+scalar SymScenerio.node[3].veinsmobility 	totalTime 	61.3
+scalar SymScenerio.node[3].veinsmobility 	stopTime 	70.5
+scalar SymScenerio.node[3].veinsmobility 	minSpeed 	0.25916712474963
+scalar SymScenerio.node[3].veinsmobility 	maxSpeed 	13.889900629846
+scalar SymScenerio.node[3].veinsmobility 	totalDistance 	802.59828497282
+scalar SymScenerio.node[3].veinsmobility 	totalCO2Emission 	160.44359509354
+scalar SymScenerio.node[4].appl 	"TX Packets" 	2025
+scalar SymScenerio.node[4].appl 	"RX Packets" 	1463
+scalar SymScenerio.node[4].appl 	PER 	27.753086090088
+scalar SymScenerio.node[4].appl 	"Średnie opóźnienie" 	0.015365101724
+scalar SymScenerio.node[4].nic.phy80211p 	busyTime 	0.017499317073168
+scalar SymScenerio.node[4].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.node[4].nic.mac1609_4 	ReceivedBroadcasts 	4871
+scalar SymScenerio.node[4].nic.mac1609_4 	SentPackets 	2025
+scalar SymScenerio.node[4].nic.mac1609_4 	SNIRLostPackets 	1535
+scalar SymScenerio.node[4].nic.mac1609_4 	RXTXLostPackets 	791
+scalar SymScenerio.node[4].nic.mac1609_4 	TotalLostPackets 	2326
+scalar SymScenerio.node[4].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.node[4].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.node[4].nic.mac1609_4 	TimesIntoBackoff 	2776
+scalar SymScenerio.node[4].nic.mac1609_4 	SlotsBackoff 	3011
+scalar SymScenerio.node[4].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.node[4].nic.mac1609_4 	totalBusyTime 	1.277649524824
+scalar SymScenerio.node[4].veinsmobility 	startTime 	12.1
+scalar SymScenerio.node[4].veinsmobility 	totalTime 	61.4
+scalar SymScenerio.node[4].veinsmobility 	stopTime 	73.6
+scalar SymScenerio.node[4].veinsmobility 	minSpeed 	0.25261469398532
+scalar SymScenerio.node[4].veinsmobility 	maxSpeed 	13.889868273614
+scalar SymScenerio.node[4].veinsmobility 	totalDistance 	803.24704404958
+scalar SymScenerio.node[4].veinsmobility 	totalCO2Emission 	161.58342412056
+scalar SymScenerio.rsu[0].appl 	"Total TX Packets" 	10176
+scalar SymScenerio.rsu[0].appl 	"Total RX Packets" 	7095
+scalar SymScenerio.rsu[0].appl 	"PER Total" 	30.277122497559
+scalar SymScenerio.rsu[0].appl 	"Całkowite średnie opóźnienie" 	0.013421805501
+statistic SymScenerio.rsu[0].appl 	nodeALL:stats
+field count 7095
+field mean 0.013403902523666
+field stddev 0.016598760718466
+field sum 95.100688405407
+field sqrsum 3.2292511316364
+field min 0.000262284934
+field max 0.05768265992
+attr source  nodeALL
+attr title  "Opoznienia ALL, stats"
+statistic SymScenerio.rsu[0].appl 	nodeALL:histogram
+field count 7095
+field mean 0.013403902523666
+field stddev 0.016598760718466
+field sum 95.100688405407
+field sqrsum 3.2292511316364
+field min 0.000262284934
+field max 0.05768265992
+attr source  nodeALL
+attr title  "Opoznienia ALL, histogram"
+bin	-INF	0
+bin	-0.023475567701	0
+bin	-0.0201651660766	0
+bin	-0.0168547644522	0
+bin	-0.0135443628278	0
+bin	-0.0102339612034	0
+bin	-0.006923559579	0
+bin	-0.0036131579546	0
+bin	-0.0003027563302	1939
+bin	0.0030076452942	2566
+bin	0.0063180469186	243
+bin	0.009628448543	106
+bin	0.0129388501674	90
+bin	0.0162492517918	255
+bin	0.0195596534162	93
+bin	0.0228700550406	183
+bin	0.026180456665	267
+bin	0.0294908582894	86
+bin	0.0328012599138	231
+bin	0.0361116615382	221
+bin	0.0394220631626	68
+bin	0.042732464787	205
+bin	0.0460428664114	208
+bin	0.0493532680358	63
+bin	0.0526636696602	59
+bin	0.0559740712846	212
+bin	0.059284472909	0
+bin	0.0625948745334	0
+bin	0.0659052761578	0
+bin	0.0692156777822	0
+bin	0.0725260794066	0
+bin	0.075836481031	0
+statistic SymScenerio.rsu[0].appl 	node4:stats
+field count 1463
+field mean 0.015365101724722
+field stddev 0.015761383182349
+field sum 22.479143823269
+field sqrsum 0.70858612566726
+field min 0.005056539585
+field max 0.05768265992
+attr source  node4
+attr title  "Opoznienia node4, stats"
+statistic SymScenerio.rsu[0].appl 	node4:histogram
+field count 1463
+field mean 0.015365101724722
+field stddev 0.015761383182349
+field sum 22.479143823269
+field sqrsum 0.70858612566726
+field min 0.005056539585
+field max 0.05768265992
+attr source  node4
+attr title  "Opoznienia node4, histogram"
+bin	-INF	0
+bin	-0.021141166759	0
+bin	-0.017647942146467	0
+bin	-0.014154717533933	0
+bin	-0.0106614929214	0
+bin	-0.0071682683088667	0
+bin	-0.0036750436963333	0
+bin	-0.0001818190838	0
+bin	0.0033114055287333	811
+bin	0.0068046301412667	136
+bin	0.0102978547538	0
+bin	0.013791079366333	18
+bin	0.017284303978867	126
+bin	0.0207775285914	0
+bin	0.024270753203933	81
+bin	0.027763977816467	60
+bin	0.031257202429	0
+bin	0.034750427041533	74
+bin	0.038243651654067	0
+bin	0.0417368762666	0
+bin	0.045230100879133	87
+bin	0.048723325491667	0
+bin	0.0522165501042	0
+bin	0.055709774716733	70
+bin	0.059202999329267	0
+bin	0.0626962239418	0
+bin	0.066189448554333	0
+bin	0.069682673166867	0
+bin	0.0731758977794	0
+bin	0.076669122391933	0
+bin	0.080162347004467	0
+bin	0.083655571617	0
+statistic SymScenerio.rsu[0].appl 	node3:stats
+field count 1284
+field mean 0.013558815679084
+field stddev 0.015249778551595
+field sum 17.409519331944
+field sqrsum 0.53442148563794
+field min 0.00491905514
+field max 0.056182872346
+attr source  node3
+attr title  "Opoznienia node3, stats"
+statistic SymScenerio.rsu[0].appl 	node3:histogram
+field count 1284
+field mean 0.013558815679084
+field stddev 0.015249778551595
+field sum 17.409519331944
+field sqrsum 0.53442148563794
+field min 0.00491905514
+field max 0.056182872346
+attr source  node3
+attr title  "Opoznienia node3, histogram"
+bin	-INF	0
+bin	-0.02060828212	0
+bin	-0.017204450201333	0
+bin	-0.013800618282667	0
+bin	-0.010396786364	0
+bin	-0.0069929544453333	0
+bin	-0.0035891225266667	0
+bin	-0.000185290608	0
+bin	0.0032185413106667	900
+bin	0.0066223732293333	14
+bin	0.010026205148	0
+bin	0.013430037066667	82
+bin	0.016833868985333	0
+bin	0.020237700904	0
+bin	0.023641532822667	79
+bin	0.027045364741333	0
+bin	0.03044919666	0
+bin	0.033853028578667	80
+bin	0.037256860497333	0
+bin	0.040660692416	0
+bin	0.044064524334667	66
+bin	0.047468356253333	0
+bin	0.050872188172	0
+bin	0.054276020090667	63
+bin	0.057679852009333	0
+bin	0.061083683928	0
+bin	0.064487515846667	0
+bin	0.067891347765333	0
+bin	0.071295179684	0
+bin	0.074699011602667	0
+bin	0.078102843521333	0
+bin	0.08150667544	0
+statistic SymScenerio.rsu[0].appl 	node2:stats
+field count 1416
+field mean 0.017480234085024
+field stddev 0.019619600625637
+field sum 24.752011464394
+field sqrsum 0.97734510559675
+field min 0.00325878603
+field max 0.057504920244
+attr source  node2
+attr title  "Opoznienia node2, stats"
+statistic SymScenerio.rsu[0].appl 	node2:histogram
+field count 1416
+field mean 0.017480234085024
+field stddev 0.019619600625637
+field sum 24.752011464394
+field sqrsum 0.97734510559675
+field min 0.00325878603
+field max 0.057504920244
+attr source  node2
+attr title  "Opoznienia node2, histogram"
+bin	-INF	0
+bin	-0.023541336163	0
+bin	-0.019967830953133	0
+bin	-0.016394325743267	0
+bin	-0.0128208205334	0
+bin	-0.0092473153235333	0
+bin	-0.0056738101136667	0
+bin	-0.0021003049038	0
+bin	0.0014732003060667	814
+bin	0.0050467055159333	72
+bin	0.0086202107258	0
+bin	0.012193715935667	0
+bin	0.015767221145533	61
+bin	0.0193407263554	0
+bin	0.022914231565267	0
+bin	0.026487736775133	70
+bin	0.030061241985	0
+bin	0.033634747194867	139
+bin	0.037208252404733	5
+bin	0.0407817576146	0
+bin	0.044355262824467	117
+bin	0.047928768034333	0
+bin	0.0515022732442	0
+bin	0.055075778454067	138
+bin	0.058649283663933	0
+bin	0.0622227888738	0
+bin	0.065796294083667	0
+bin	0.069369799293533	0
+bin	0.0729433045034	0
+bin	0.076516809713267	0
+bin	0.080090314923133	0
+bin	0.083663820133	0
+statistic SymScenerio.rsu[0].appl 	node1:stats
+field count 1590
+field mean 0.010782540980782
+field stddev 0.01581923600695
+field sum 17.144240159444
+field sqrsum 0.58250290614704
+field min 0.000262284934
+field max 0.045051234569
+attr source  node1
+attr title  "Opoznienia node1, stats"
+statistic SymScenerio.rsu[0].appl 	node1:histogram
+field count 1590
+field mean 0.010782540980782
+field stddev 0.01581923600695
+field sum 17.144240159444
+field sqrsum 0.58250290614704
+field min 0.000262284934
+field max 0.045051234569
+attr source  node1
+attr title  "Opoznienia node1, histogram"
+bin	-INF	0
+bin	-0.0219118758145	0
+bin	-0.0189551682219	0
+bin	-0.0159984606293	0
+bin	-0.0130417530367	0
+bin	-0.0100850454441	0
+bin	-0.0071283378515	0
+bin	-0.0041716302589	0
+bin	-0.0012149226663	1013
+bin	0.0017417849263	0
+bin	0.0046984925189	62
+bin	0.0076552001115	0
+bin	0.0106119077041	0
+bin	0.0135686152967	58
+bin	0.0165253228893	0
+bin	0.0194820304819	0
+bin	0.0224387380745	160
+bin	0.0253954456671	0
+bin	0.0283521532597	0
+bin	0.0313088608523	0
+bin	0.0342655684449	154
+bin	0.0372222760375	0
+bin	0.0401789836301	0
+bin	0.0431356912227	143
+bin	0.0460923988153	0
+bin	0.0490491064079	0
+bin	0.0520058140005	0
+bin	0.0549625215931	0
+bin	0.0579192291857	0
+bin	0.0608759367783	0
+bin	0.0638326443709	0
+bin	0.0667893519635	0
+statistic SymScenerio.rsu[0].appl 	node0:stats
+field count 1342
+field mean 0.009922335041994
+field stddev 0.01481358037586
+field sum 13.315773626356
+field sqrsum 0.42639550858736
+field min 0.001350093065
+field max 0.051804970472
+attr source  node0
+attr title  "Opoznienia node0, stats"
+statistic SymScenerio.rsu[0].appl 	node0:histogram
+field count 1342
+field mean 0.009922335041994
+field stddev 0.01481358037586
+field sum 13.315773626356
+field sqrsum 0.42639550858736
+field min 0.001350093065
+field max 0.051804970472
+attr source  node0
+attr title  "Opoznienia node0, histogram"
+bin	-INF	0
+bin	-0.023475567701	0
+bin	-0.0201651660766	0
+bin	-0.0168547644522	0
+bin	-0.0135443628278	0
+bin	-0.0102339612034	0
+bin	-0.006923559579	0
+bin	-0.0036131579546	0
+bin	-0.0003027563302	926
+bin	0.0030076452942	0
+bin	0.0063180469186	0
+bin	0.009628448543	106
+bin	0.0129388501674	0
+bin	0.0162492517918	0
+bin	0.0195596534162	93
+bin	0.0228700550406	0
+bin	0.026180456665	0
+bin	0.0294908582894	86
+bin	0.0328012599138	0
+bin	0.0361116615382	0
+bin	0.0394220631626	68
+bin	0.042732464787	0
+bin	0.0460428664114	0
+bin	0.0493532680358	63
+bin	0.0526636696602	0
+bin	0.0559740712846	0
+bin	0.059284472909	0
+bin	0.0625948745334	0
+bin	0.0659052761578	0
+bin	0.0692156777822	0
+bin	0.0725260794066	0
+bin	0.075836481031	0
+scalar SymScenerio.rsu[0].nic.phy80211p 	busyTime 	0.022492105263153
+scalar SymScenerio.rsu[0].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	ReceivedBroadcasts 	7095
+scalar SymScenerio.rsu[0].nic.mac1609_4 	SentPackets 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	SNIRLostPackets 	3080
+scalar SymScenerio.rsu[0].nic.mac1609_4 	RXTXLostPackets 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	TotalLostPackets 	3080
+scalar SymScenerio.rsu[0].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	TooLittleTime 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	TimesIntoBackoff 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	SlotsBackoff 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	NumInternalContention 	0
+scalar SymScenerio.rsu[0].nic.mac1609_4 	totalBusyTime 	1.418592

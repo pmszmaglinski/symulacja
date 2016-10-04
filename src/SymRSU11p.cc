@@ -23,10 +23,19 @@
 Define_Module(SymRSU11p);
 
 void SymRSU11p::initialize(int stage) {
+
+    sigOpNode0 = registerSignal("node0"); // Sygnal do odbioru opoznien
+    sigOpNode1 = registerSignal("node1");
+    sigOpNode2 = registerSignal("node2");
+    sigOpNode3 = registerSignal("node3");
+    sigOpNode4 = registerSignal("node4");
+    sigOpALL   = registerSignal("nodeALL");
+
     BaseWaveApplLayer::initialize(stage);
     if (stage == 0) {
-        rxVec.setName("RX Packets");
+        //rxVec.setName("RX Packets");
         rxPacketVec.setName("RX Packet");
+        //opoznienieVec.setName("Opoznienie");
 
     }
 }
@@ -47,13 +56,28 @@ void SymRSU11p::onVoIP(WaveShortMessage* wsm) {
     myId = wsm->getSenderAddress(); // Id node'a wysyłającego pakiet
 
     voipCounter->addRx(myId);// Dodaj otrzymany pakiet do klasy licznika
-    rxVec.record(voipCounter->getTotalRx());
-    rxPacketVec.record(1.003);
+    //rxVec.record(voipCounter->getTotalRx());
+    //rxVec.record(simTime()-wsm->getTimestamp());
+    emit(sigOpALL, simTime()-wsm->getTimestamp());
+    rxPacketVec.record(0.003);
     EV << "Otrzymałem pakiet VoIP nr " << voipCounter->getRx(myId) << " z " << voipCounter->getTx(myId) << " wysłanych od node id: " << myId << " z opóźnieniem " << simTime()-wsm->getTimestamp() << "\n";
     EV << "Stan licznikow w RSU Rx: " << voipCounter->getRx(myId) << ", Tx: " << voipCounter->getTx(myId) << " dla node id: " << myId << "\n";
 
     //Sumowanie opóźnień
     voipCounter->addOp(myId, simTime()-wsm->getTimestamp());
+
+    //Dodawanie opźnienia do wektora
+    //if (myId == 0) opoznienieVec.record(simTime()-wsm->getTimestamp());
+
+    //Zapisywanie opóźnieniń do statystyk danego node'a
+    if (myId==0) emit(sigOpNode0, simTime()-wsm->getTimestamp()); // Zapisanie czasu opóźnienia
+    if (myId==1) emit(sigOpNode1, simTime()-wsm->getTimestamp());
+    if (myId==2) emit(sigOpNode2, simTime()-wsm->getTimestamp());
+    if (myId==3) emit(sigOpNode3, simTime()-wsm->getTimestamp());
+    if (myId==4) emit(sigOpNode4, simTime()-wsm->getTimestamp());
+
+    //Wyślij wiadomość do node'a że dotarła z Recived Time i Opóźnieniem
+
 
     //Statystyki
     //simtime_t opoznienie = simTime()-wsm->getTimestamp();

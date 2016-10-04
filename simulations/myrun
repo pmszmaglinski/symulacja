@@ -1,0 +1,18 @@
+#!/bin/bash
+
+KONFIGURACJA=(VoIP-10ms_120B VoIP-20ms_200B VoIP-30ms_280B VoIP-50ms_440B)
+#KONFIGURACJA=(VoIP-50ms_440B)
+
+ITERACJA=10
+
+cd `dirname $0`
+
+for i in "${KONFIGURACJA[@]}"
+do
+
+	for ((j=0; j<$ITERACJA; j++))
+	do
+	../src/symulacja -n .:../src -u Cmdenv -c $i -r $j
+	done
+
+done

@@ -1,0 +1,199 @@
+file 1788823 1474633058                                         
+version 2
+run VoIP-50ms_440B-9-20160923-14:17:25-14756
+attr configname VoIP-50ms_440B
+attr datetime 20160923-14:17:25
+attr experiment VoIP-50ms_440B
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=9
+attr measurement ""
+attr network SymScenerio
+attr processid 14756
+attr repetition 9
+attr replication #9
+attr resultdir results
+attr runnumber 9
+attr seedset 9
+param **.coreDebug false
+param **.debug false
+param *.**.nic.mac1609_4.bitrate 18Mbps
+param *.**.nic.mac1609_4.txPower 20mW
+param *.**.nic.mac1609_4.useServiceChannel true
+param *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.sensitivity -89dBm
+param *.**.nic.phy80211p.thermalNoise -110dBm
+param *.**.nic.phy80211p.usePropagationDelay true
+param *.**.nic.phy80211p.useThermalNoise true
+param *.annotations.draw false
+param *.connectionManager.alpha 2.0
+param *.connectionManager.carrierFrequency "5.890e9 Hz"
+param *.connectionManager.pMax 20mW
+param *.connectionManager.sat -89dBm
+param *.connectionManager.sendDirect true
+param *.manager.autoShutdown true
+param *.manager.host "\"localhost\""
+param *.manager.launchConfig "xmldoc(\"map.launchd.xml\")"
+param *.manager.margin 25
+param *.manager.moduleDisplayString "\"\""
+param *.manager.moduleName "\"node\""
+param *.manager.moduleType "\"symulacja.veins.nodes.Car\""
+param *.manager.port 9999
+param *.manager.updateInterval 0.1s
+param *.node[*].appl.beaconInterval 1s
+param *.node[*].appl.beaconPriority 3
+param *.node[*].appl.dataOnSch false
+param *.node[*].appl.dataPriority 2
+param *.node[*].appl.debug false
+param *.node[*].appl.maxOffset 0.005s
+param *.node[*].appl.sendBeacons false
+param *.node[*].appl.sendData true
+param *.node[*].appl.sendVoIP true
+param *.node[*].appl.voipInterval 0.050s
+param *.node[*].appl.voipLengthBits 3520bit
+param *.node[*].appl.voipOnSch true
+param *.node[*].appl.voipPriority 3
+param *.node[*].applType "\"Sym11p\""
+param *.node[*].veinsmobility.x 0
+param *.node[*].veinsmobility.y 0
+param *.node[*].veinsmobility.z 1.895
+param *.node[*].veinsmobilityType "\"symulacja.veins.modules.mobility.traci.TraCIMobility\""
+param *.playgroundSizeX 9000m
+param *.playgroundSizeY 9000m
+param *.playgroundSizeZ 50m
+param *.rsu[*].appl.beaconInterval 1s
+param *.rsu[*].appl.beaconPriority 3
+param *.rsu[*].appl.dataOnSch false
+param *.rsu[*].appl.dataPriority 2
+param *.rsu[*].appl.debug false
+param *.rsu[*].appl.headerLength "256 bit"
+param *.rsu[*].appl.maxOffset 0.005s
+param *.rsu[*].appl.sendBeacons false
+param *.rsu[*].appl.sendData false
+param *.rsu[*].appl.sendVoIP false
+param *.rsu[*].applType "\"SymRSU11p\""
+param *.rsu[0].mobility.x 2160
+param *.rsu[0].mobility.y 3100
+param *.rsu[0].mobility.z 3
+param *.world.use2D false
+param *.world.useTorus false
+
+vector 14  SymScenerio.rsu[0].nic.mac1609_4  "Interwały kanałów"  ETV
+vector 23  SymScenerio.node[0].veinsmobility  posx  ETV
+vector 24  SymScenerio.node[0].veinsmobility  posy  ETV
+vector 22  SymScenerio.node[0].nic.mac1609_4  "Interwały kanałów"  ETV
+vector 25  SymScenerio.node[0].veinsmobility  speed  ETV
+vector 15  SymScenerio.node[0].appl  "TX Packets"  ETV
+vector 16  SymScenerio.node[0].appl  "TX Total"  ETV
+vector 17  SymScenerio.node[0].appl  Pakietyzacja  ETV
+vector 5  SymScenerio.rsu[0].appl  nodeALL:vector  ETV
+attr source  nodeALL
+attr title  "Opoznienia ALL, vector"
+vector 9  SymScenerio.rsu[0].appl  "RX Packet"  ETV
+vector 0  SymScenerio.rsu[0].appl  node0:vector  ETV
+attr source  node0
+attr title  "Opoznienia node0, vector"
+vector 26  SymScenerio.node[0].veinsmobility  acceleration  ETV
+vector 27  SymScenerio.node[0].veinsmobility  co2emission  ETV
+vector 36  SymScenerio.node[1].veinsmobility  posx  ETV
+vector 37  SymScenerio.node[1].veinsmobility  posy  ETV
+vector 35  SymScenerio.node[1].nic.mac1609_4  "Interwały kanałów"  ETV
+vector 38  SymScenerio.node[1].veinsmobility  speed  ETV
+vector 39  SymScenerio.node[1].veinsmobility  acceleration  ETV
+vector 40  SymScenerio.node[1].veinsmobility  co2emission  ETV
+vector 28  SymScenerio.node[1].appl  "TX Packets"  ETV
+vector 29  SymScenerio.node[1].appl  "TX Total"  ETV
+vector 30  SymScenerio.node[1].appl  Pakietyzacja  ETV
+vector 1  SymScenerio.rsu[0].appl  node1:vector  ETV
+attr source  node1
+attr title  "Opoznienia node1, vector"
+vector 49  SymScenerio.node[2].veinsmobility  posx  ETV
+vector 50  SymScenerio.node[2].veinsmobility  posy  ETV
+vector 48  SymScenerio.node[2].nic.mac1609_4  "Interwały kanałów"  ETV
+vector 41  SymScenerio.node[2].appl  "TX Packets"  ETV
+vector 42  SymScenerio.node[2].appl  "TX Total"  ETV
+vector 43  SymScenerio.node[2].appl  Pakietyzacja  ETV
+vector 2  SymScenerio.rsu[0].appl  node2:vector  ETV
+attr source  node2
+attr title  "Opoznienia node2, vector"
+vector 51  SymScenerio.node[2].veinsmobility  speed  ETV
+vector 52  SymScenerio.node[2].veinsmobility  acceleration  ETV
+vector 53  SymScenerio.node[2].veinsmobility  co2emission  ETV
+vector 62  SymScenerio.node[3].veinsmobility  posx  ETV
+vector 63  SymScenerio.node[3].veinsmobility  posy  ETV
+vector 61  SymScenerio.node[3].nic.mac1609_4  "Interwały kanałów"  ETV
+vector 64  SymScenerio.node[3].veinsmobility  speed  ETV
+vector 65  SymScenerio.node[3].veinsmobility  acceleration  ETV
+vector 66  SymScenerio.node[3].veinsmobility  co2emission  ETV
+vector 54  SymScenerio.node[3].appl  "TX Packets"  ETV
+vector 55  SymScenerio.node[3].appl  "TX Total"  ETV
+vector 56  SymScenerio.node[3].appl  Pakietyzacja  ETV
+vector 3  SymScenerio.rsu[0].appl  node3:vector  ETV
+attr source  node3
+attr title  "Opoznienia node3, vector"
+vector 75  SymScenerio.node[4].veinsmobility  posx  ETV
+vector 76  SymScenerio.node[4].veinsmobility  posy  ETV
+vector 74  SymScenerio.node[4].nic.mac1609_4  "Interwały kanałów"  ETV
+vector 77  SymScenerio.node[4].veinsmobility  speed  ETV
+vector 78  SymScenerio.node[4].veinsmobility  acceleration  ETV
+vector 79  SymScenerio.node[4].veinsmobility  co2emission  ETV
+vector 67  SymScenerio.node[4].appl  "TX Packets"  ETV
+vector 68  SymScenerio.node[4].appl  "TX Total"  ETV
+vector 69  SymScenerio.node[4].appl  Pakietyzacja  ETV
+vector 4  SymScenerio.rsu[0].appl  node4:vector  ETV
+attr source  node4
+attr title  "Opoznienia node4, vector"
+17	6288 38142 12 205514 0.271055546054 61.571055546054 1227 1.002 1.002 1229.454 1231.912908
+16	44430 36499 12 205514 0.271055546054 61.571055546054 1227 1 5511 3059649 11179902771
+15	80929 35808 12 205514 0.271055546054 61.571055546054 1227 1 1227 753378 616514330
+22	116737 38192 6 205265 0.150263166363 61.550263166363 1229 0.001 0.002 1.843 0.0030710000000001
+27	154929 16646 27 205244 0.3 61.5 613 0.973 10.012493301344 1609.7939037836 5946.9339352559
+26	171575 19133 27 205244 0.3 61.5 613 -1.1605068623787 2.5944371723201 135.28682759262 429.88063248159
+25	190708 18292 7 205244 0.2 61.5 614 0.25986513594398 13.889611043939 8030.4011258378 108692.37014674
+24	209000 18297 3 205244 0.1 61.5 615 2910.8392173451 3382.770679328 1953622.4859002 6217774760.696
+23	227297 18294 3 205244 0.1 61.5 615 1851.809391281 2490.2093352812 1336934.4223058 2930322266.5471
+30	245591 38210 1251 213598 3.577655887138 64.577655887138 1221 1.002 1.002 1223.442 1225.888884
+29	283801 36715 1251 213598 3.577655887138 64.577655887138 1221 68 5752 3396639 13090726067
+28	320516 35882 1251 213598 3.577655887138 64.577655887138 1221 1 1221 746031 607517911
+35	356398 38441 1013 213405 3.150172747654 64.550172747654 1229 0.001 0.002 1.843 0.0030710000000001
+40	394839 16637 1104 213389 3.3 64.5 613 0.973 10.06436475604 1616.9654769485 6118.6518202197
+39	411476 19231 1104 213389 3.3 64.5 613 -1.2189909319393 2.589411442983 135.56442637502 446.68706699864
+38	430707 18419 1055 213389 3.2 64.5 614 0.25823947311146 13.889955591601 8030.7375399913 108848.79771043
+37	449126 18430 1007 213389 3.1 64.5 615 2910.8115361615 3382.770679328 1953639.2153588 6217894074.468
+36	467556 18416 1007 213389 3.1 64.5 615 1851.7953671269 2490.2093352812 1336967.3677422 2930494742.4801
+43	485972 38558 3609 218482 6.158713974967 67.458713974967 1227 1.002 1.002 1229.454 1231.912908
+42	524530 37124 3609 218482 6.158713974967 67.458713974967 1227 171 5925 3725833 15048328001
+41	561654 36224 3609 218482 6.158713974967 67.458713974967 1227 1 1227 753378 616514330
+48	597878 38557 3558 218416 6.150282281068 67.450282281068 1227 0.001 0.002 1.84 0.0030660000000001
+53	636435 16671 3851 218402 6.3 67.4 612 0.973 10.401739840406 1618.8659685463 6041.549163064
+52	653106 19287 3851 218402 6.3 67.4 612 -1.172455463116 2.5965631975792 135.79216458717 441.35762810866
+51	672393 18468 3690 218402 6.2 67.4 613 0.25106023678719 13.889768684926 8026.942622238 108737.80911733
+50	690861 18483 3547 218402 6.1 67.4 614 2911.151485604 3382.770679328 1950388.5206501 6207278104.9634
+49	709344 18493 3547 218402 6.1 67.4 614 1851.9675961548 2490.2093352812 1334653.1794283 2925048273.2033
+56	727837 38750 9195 221454 9.381298156572 70.681298156572 1227 1.002 1.002 1229.454 1231.912908
+55	766587 37381 9195 221454 9.381298156572 70.681298156572 1227 366 6055 4096731 17369149287
+54	803968 36416 9195 221454 9.381298156572 70.681298156572 1227 1 1227 753378 616514330
+61	840384 38865 8580 221392 9.150050462346 70.650050462346 1231 0.001 0.002 1.846 0.0030760000000001
+66	879249 16929 8986 221384 9.3 70.6 614 0.973 10.15470485761 1603.0063568688 5898.3699976816
+65	896178 19467 8986 221384 9.3 70.6 614 -1.1715596064692 2.5953624105238 135.05655317633 422.22459314429
+64	915645 18619 8777 221384 9.2 70.6 615 0.25634131099982 13.889992002381 8036.5292369154 108815.24310238
+63	934264 18633 8569 221384 9.1 70.6 616 2910.2901378915 3382.770679328 1956794.4619387 6227895415.0643
+62	952897 18637 8569 221384 9.1 70.6 616 1851.5312104437 2490.2093352812 1339142.2755331 2935305496.07
+69	971534 38396 19398 222510 13.065425070608 73.665425070608 1213 1.002 1.002 1215.426 1217.856852
+68	1009930 37115 19398 222510 13.065425070608 73.665425070608 1213 660 6115 4420818 19550448464
+67	1047045 36076 19398 222510 13.065425070608 73.665425070608 1213 1 1213 736291 595659419
+74	1083121 38953 16411 222496 12.150198338843 73.650198338843 1231 0.001 0.002 1.846 0.0030760000000001
+79	1122074 17062 17011 222490 12.3 73.6 614 0.973 9.9625636682921 1624.7290299255 6074.1382341345
+78	1139136 19517 17011 222490 12.3 73.6 614 -1.2973831966054 2.5854298011167 135.24364562976 439.79463530066
+77	1158653 18651 16702 222490 12.2 73.6 615 0.25136735898629 13.889907444592 8035.9504903564 108850.96853781
+76	1177304 18680 16394 222490 12.1 73.6 616 2910.3429953179 3382.770679328 1956857.3490778 6228298077.7581
+75	1195984 18678 16394 222490 12.1 73.6 616 1851.5579896703 2490.2093352812 1339233.8983853 2935715490.0771
+0	1214662 35719 26 205552 0.271372616413 61.57136974836 922 0.000312152782 0.034531096684 10.628078035825 0.35364824069202
+1	1250381 35362 1271 213630 3.579211659602 64.579208335454 907 0.001550931096 0.027930626735 9.009874787257 0.22104775994103
+2	1285743 35571 3635 218508 6.161636419104 67.461643815565 908 0.002922257799 0.046872635851 15.398177403775 0.63435384210024
+3	1321314 48293 9227 221474 9.382086259229 70.682092950852 1227 0.000788102657 0.023091754649 14.631643423921 0.32669332545877
+4	1369607 35543 19436 222524 13.067676735301 73.667667550556 901 0.002238453745 0.040161970852 12.968940822996 0.46102355483283
+5	1405150 190488 26 222524 0.271372616413 73.667667550556 4865 0.000312152782 0.046872635851 62.636714473774 1.9967667230249
+9	1595638 147244 26 222524 0.271372616413 73.667667550556 4865 0.003 0.003 14.595 0.043785000000001
+14	1742882 45941 2 222571 0.05014973911 75.95014973911 1519 0.001 0.002 2.2779999999999 0.0037960000000001
