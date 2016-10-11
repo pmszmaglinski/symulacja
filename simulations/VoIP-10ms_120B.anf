@@ -7,6 +7,7 @@
   <datasets>
     <datasets name="PER-10ms">
       <items xsi:type="scave:Add" filterPattern="run(*) AND module(*.node[*].appl) AND name(PER)"/>
+      <items xsi:type="scave:Add" filterPattern="run(*) AND module(*.mac1609_4) AND name(TotalLostPackets)"/>
       <items xsi:type="scave:BarChart"/>
     </datasets>
     <datasets name="rxtx">
@@ -16,8 +17,16 @@
       <items xsi:type="scave:ComputeScalar" scalarName="LostPckt" valueExpr="SymScenerio.node[0].appl.'TX Packets' - SymScenerio.node[0].appl.'RX Packets'" moduleExpr="SymScenerio.*" groupByExpr=""/>
       <items xsi:type="scave:BarChart"/>
     </datasets>
+    <datasets name="TestMac">
+      <items xsi:type="scave:Add" filterPattern="run(*) AND module(*.mac1609_4) AND name(SentPackets)"/>
+      <items xsi:type="scave:Add" filterPattern="run(*) AND module(*.mac1609_4) AND name(RXTXLostPackets)"/>
+      <items xsi:type="scave:Add" filterPattern="run(*) AND module(*.mac1609_4) AND name(SNIRLostPackets)"/>
+      <items xsi:type="scave:Add" filterPattern="run(*) AND module(*.mac1609_4) AND name(TotalLostPackets)"/>
+      <items xsi:type="scave:ComputeScalar" scalarName="SUMA" valueExpr="'RXTXLostPackets'+'SNIRLostPackets'" moduleExpr="" groupByExpr=""/>
+      <items xsi:type="scave:BarChart"/>
+    </datasets>
   </datasets>
   <chartSheets>
-    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.1 //@datasets/@datasets.1/@items.4"/>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.2 //@datasets/@datasets.1/@items.4 //@datasets/@datasets.2/@items.5"/>
   </chartSheets>
 </scave:Analysis>

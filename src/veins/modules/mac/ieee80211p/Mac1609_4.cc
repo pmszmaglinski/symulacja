@@ -140,6 +140,10 @@ void Mac1609_4::initialize(int stage) {
 		statsSlotsBackoff = 0;
 		statsTotalBusyTime = 0;
 
+		// Obserwowanie zmiennych w symulacji
+		WATCH(statsTXRXLostPackets);
+		WATCH(statsSNIRLostPackets);
+
 		// Inicjacja zmiennych wektorowych
 		CCHIntVec.setName("Interwał CCH");
 		SCHIntVec.setName("Interwał SCH");
@@ -355,10 +359,12 @@ void Mac1609_4::handleLowerControl(cMessage* msg) {
 	else if (msg->getKind() == Decider80211p::BITERROR || msg->getKind() == Decider80211p::COLLISION) {
 		statsSNIRLostPackets++;
 		DBG_MAC << "A packet was not received due to biterrors" << std::endl;
+		findHost()->bubble("SNIR Lost !!!");
 	}
 	else if (msg->getKind() == Decider80211p::RECWHILESEND) {
 		statsTXRXLostPackets++;
 		DBG_MAC << "A packet was not received because we were sending while receiving" << std::endl;
+		findHost()->bubble("TXRX Lost !!!");
 	}
 	else if (msg->getKind() == MacToPhyInterface::RADIO_SWITCHING_OVER) {
 		DBG_MAC << "Phylayer said radio switching is done" << std::endl;
@@ -366,6 +372,7 @@ void Mac1609_4::handleLowerControl(cMessage* msg) {
 	else if (msg->getKind() == BaseDecider::PACKET_DROPPED) {
 		phy->setRadioState(Radio::RX);
 		DBG_MAC << "Phylayer said packet was dropped" << std::endl;
+		findHost()->bubble("PHY Lost !!!");
 	}
 	else {
 		DBG_MAC << "Invalid control message type (type=NOTHING) : name=" << msg->getName() << " modulesrc=" << msg->getSenderModule()->getFullPath() << "." << std::endl;
@@ -873,3 +880,12 @@ simtime_t Mac1609_4::getFrameDuration(int payloadLengthBits, enum PHY_MCS mcs) c
 
 	return duration;
 }
+
+void Mac1609_4::refreshDisplay() const
+{
+    char buf[40];
+    sprintf(buf, "SNIR: %ld TXRX: %ld", statsSNIRLostPackets, statsTXRXLostPackets);
+    findHost()->getDisplayString().setTagArg("t", 0, buf);
+}
+
+

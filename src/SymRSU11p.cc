@@ -63,8 +63,11 @@ void SymRSU11p::onVoIP(WaveShortMessage* wsm) {
     EV << "Otrzymałem pakiet VoIP nr " << voipCounter->getRx(myId) << " z " << voipCounter->getTx(myId) << " wysłanych od node id: " << myId << " z opóźnieniem " << simTime()-wsm->getTimestamp() << "\n";
     EV << "Stan licznikow w RSU Rx: " << voipCounter->getRx(myId) << ", Tx: " << voipCounter->getTx(myId) << " dla node id: " << myId << "\n";
 
-    //Sumowanie opóźnień
+    // Sumowanie opóźnień
     voipCounter->addOp(myId, simTime()-wsm->getTimestamp());
+
+    // Pochwal się ;)
+    findHost()->bubble("Dostałem Wiadomość !!!");
 
     //Dodawanie opźnienia do wektora
     //if (myId == 0) opoznienieVec.record(simTime()-wsm->getTimestamp());

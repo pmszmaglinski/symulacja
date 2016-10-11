@@ -177,6 +177,9 @@ class Mac1609_4 : public BaseMacLayer,
 		/** @brief Handle control messages from lower layer.*/
 		virtual void handleLowerControl(cMessage* msg);
 
+        // Zmienne na scenie
+        virtual void refreshDisplay() const override;
+
 		/** @brief Set a state for the channel selecting operation.*/
 		void setActiveChannel(t_channel state);
 
@@ -191,6 +194,7 @@ class Mac1609_4 : public BaseMacLayer,
 		/** @brief maps a application layer priority (up) to an EDCA access category. */
 		t_access_category mapPriority(int prio);
 
+
 		void channelBusy();
 		void channelBusySelf(bool generateTxOp);
 		void channelIdle(bool afterSwitch = false);
@@ -198,6 +202,10 @@ class Mac1609_4 : public BaseMacLayer,
 		void setParametersForBitrate(uint64_t bitrate);
 
 		simtime_t getFrameDuration(int payloadLengthBits, enum PHY_MCS mcs = MCS_DEFAULT) const;
+
+		// Widok zmiennych na scenie symulacji
+	    //virtual void refreshDisplay() const override;
+
 
 	protected:
 		/** @brief Self message to indicate that the current channel shall be switched.*/

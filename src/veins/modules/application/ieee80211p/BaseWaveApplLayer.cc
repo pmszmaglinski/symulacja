@@ -60,6 +60,8 @@ void BaseWaveApplLayer::initialize(int stage) {
 
 		//simulate asynchronous channel access
 		double offSet = dblrand() * (par("beaconInterval").doubleValue()/2);
+		//double offSet = dblrand() * (par("voipInterval").doubleValue()/2);
+
 		offSet = offSet + floor(offSet/0.050)*0.050;
 		individualOffset = dblrand() * maxOffset;
 
